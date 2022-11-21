@@ -1,0 +1,28 @@
+_._._._._._._._._
+| JAVA VARIABLE |
+-.-.-.-.-.-.-.-.-
+
+= Variables are a way to store information in our computer.
+= Variables that we define in a program can be access by a name we give them.
+= Computer does the hard work of figuring out where they get stored in the computer RAM.
+= We tell the computer what kind of type of data we'll give to the variable.
+
+        int firstNumber = 10;
+
+= When we define a variable like the above one we're create a declaration statements.
+_._._._._._._._
+| JAVA STRING |
+-.-.-.-.-.-.-.-
+
+= Any sequence of characters/digits surrounded by double quotes is a String literal in Java.
+= It's value cannot be change after we defined it.
+
+_._._._._._._._._
+| JAVA OPERATOR |
+-.-.-.-.-.-.-.-.-
+
+= Java operators or just operators perform an operation (hence the word) on a variable or value
+= +, -, / and * are four common ones that we're familliar with.
+
+
+
