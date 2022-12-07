@@ -41,6 +41,12 @@ public class Primitives {
 
         // if you specify the a value without L, and the value is larger than
         // integer MAX_VALUE, java will keep warning you that the value is overflow
-        
+
+        System.out.println(myByteMinValue / 2);
+
+        byte myNewByteResult = (byte)(myByteMinValue / 2);
+
+        System.out.println("The casting version: " + myNewByteResult);
+
     }
 }

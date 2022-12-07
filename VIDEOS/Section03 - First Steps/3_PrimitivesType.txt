@@ -33,6 +33,19 @@ _._._._._._._._._._._._.
 
             long myLongValue = 100L;
 
+= Java's default value without decimal point (3.14, 1.55, 22.75 and so on) is integer.
+= If you have a division(10/5, 6/3, and so on) that's the result is not a float/double (value with decimal point),
+  and you save the result to the variable that's not int, then you should to convert it(casting it).
+
+            byte myNewByteResult = (myByteMinValue/2);      // Java will give you a warning.
+
+= you casting the result by put in front of it a type inside parenthesis, which the type is the same
+  as the type where you store the result.
+
+            byte myNewByteResult = (byte)(myByteMinValue/2);
+
+= Casting means to treat or convert a number from one type to another type.
+= This casting applies to all the data types.
 _._._._._._._._.
 | JAVA PACKAGE |
 -.-.-.-.-.-.-.-.
