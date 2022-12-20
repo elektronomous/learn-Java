@@ -22,5 +22,13 @@ public class Hello {
         if (topScore > secondTopScore && topScore < 100) {
             System.out.println("Greater than topScore and less than 100");
         }
+
+        // using ternary operator
+        String myCar = "Ford";
+        boolean isDomesticCar = myCar == "Ford" ? false : true;
+
+        if (isDomesticCar) {
+            System.out.println("Ford is domestic car in my country.");
+        }
     }
 }
