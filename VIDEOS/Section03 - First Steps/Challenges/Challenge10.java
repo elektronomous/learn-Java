@@ -17,7 +17,7 @@ public class Challenge10 {
         // 2
         double var2 = 80.00d;
         // 3
-        double totalVar = (var1 + var2) * 100;
+        double totalVar = (var1 + var2) * 100.00d;
         // 4
         double remainder = totalVar % 40;
         // 5
