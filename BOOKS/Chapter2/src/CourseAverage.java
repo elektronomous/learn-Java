@@ -38,65 +38,81 @@ public class CourseAverage {
     // Prompt the user to enter eight program scores
     SimpleIO.prompt("Enter Program 1 score: ");
     String userInput = SimpleIO.readLine();
-    double program1 = Convert.toDouble(userInput);
+    // double program1 = Convert.toDouble(userInput);
+    double programTotal = Convert.toDouble(userInput);
+
 
     SimpleIO.prompt("Enter Program 2 score: ");
     userInput = SimpleIO.readLine();
-    double program2 = Convert.toDouble(userInput);
+    // double program2 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 3 score: ");
     userInput = SimpleIO.readLine();
-    double program3 = Convert.toDouble(userInput);
+    // double program3 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 4 score: ");
     userInput = SimpleIO.readLine();
-    double program4 = Convert.toDouble(userInput);
+    // double program4 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 5 score: ");
     userInput = SimpleIO.readLine();
-    double program5 = Convert.toDouble(userInput);
+    // double program5 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 6 score: ");
     userInput = SimpleIO.readLine();
-    double program6 = Convert.toDouble(userInput);
+    // double program6 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 7 score: ");
     userInput = SimpleIO.readLine();
-    double program7 = Convert.toDouble(userInput);
+    // double program7 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Program 8 score: ");
     userInput = SimpleIO.readLine();
-    double program8 = Convert.toDouble(userInput);
+    // double program8 = Convert.toDouble(userInput);
+    programTotal += Convert.toDouble(userInput);
 
     // Compute the program average from the eight scores
-    double programAverage =
-      (program1 + program2 + program3 + program4 +
-       program5 + program6 + program7 + program8) / 8;
+    // double programAverage =
+    //   (program1 + program2 + program3 + program4 +
+    //    program5 + program6 + program7 + program8) / 8;
+    double programAverage = programTotal / 8;
 
     // Prompt the user to enter five quiz scores
     SimpleIO.prompt("\nEnter Quiz 1 score: ");
     userInput = SimpleIO.readLine();
-    double quiz1 = Convert.toDouble(userInput);
+    // double quiz1 = Convert.toDouble(userInput);
+    double quizTotal = Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Quiz 2 score: ");
     userInput = SimpleIO.readLine();
-    double quiz2 = Convert.toDouble(userInput);
+    // double quiz2 = Convert.toDouble(userInput);
+    quizTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Quiz 3 score: ");
     userInput = SimpleIO.readLine();
-    double quiz3 = Convert.toDouble(userInput);
+    // double quiz3 = Convert.toDouble(userInput);
+    quizTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Quiz 4 score: ");
     userInput = SimpleIO.readLine();
-    double quiz4 = Convert.toDouble(userInput);
+    // double quiz4 = Convert.toDouble(userInput);
+    quizTotal += Convert.toDouble(userInput);
 
     SimpleIO.prompt("Enter Quiz 5 score: ");
     userInput = SimpleIO.readLine();
-    double quiz5 = Convert.toDouble(userInput);
+    // double quiz5 = Convert.toDouble(userInput);
+    quizTotal += Convert.toDouble(userInput);
 
     // Compute the quiz average from the five scores
-    double quizAverage =
-      (quiz1 + quiz2 + quiz3 + quiz4 + quiz5) / 5;
+    // double quizAverage =
+    //   (quiz1 + quiz2 + quiz3 + quiz4 + quiz5) / 5;
+    double quizAverage = quizTotal / 5;
 
     // Prompt the user to enter scores on the tests and final
     // exam
