@@ -11,7 +11,7 @@
 // Provides methods to convert a string containing a number
 // to double or float form
 
-package BOOKS.Chapter2.Projects.jpb;
+package jpb;
 
 public class Convert {
   // Converts the string s to double form; terminates the

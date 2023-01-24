@@ -9,7 +9,7 @@
 //////////////////////////////////////////////////////////////
 
 // Provides prompt and readLine methods for console input
-package BOOKS.Chapter2.Projects.jpb;
+package jpb;
 
 import java.io.*;
 

@@ -9,7 +9,7 @@
 //////////////////////////////////////////////////////////////
 
 // A frame in which drawings can be displayed
-package BOOKS.Chapter2.Projects.jpb;
+package jpb;
 
 import java.awt.*;
 import java.awt.event.*;
