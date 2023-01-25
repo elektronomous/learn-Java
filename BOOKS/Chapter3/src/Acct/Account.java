@@ -1,3 +1,5 @@
+package Acct;
+
 public class Account {
     // variable-declarations
     // instance-variables
@@ -28,10 +30,5 @@ public class Account {
 
     public void close() {
         balance = 0.0;
-    }
-
-    public static void main(String[] args) {
-        Account acc = new Account(1000.0);      // create account with $1000 balance
-        System.out.println(acc.getBalance());
     }
 }

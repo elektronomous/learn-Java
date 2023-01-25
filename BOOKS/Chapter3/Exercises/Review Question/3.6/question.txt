@@ -1,0 +1,12 @@
+1. Suppose that a program consists of two files: BallpointPen.java contains the declara-
+   tion of the BallpointPen class and WriteLetter.java contains a program that creates
+   BallpointPen objects. What single command would compile both files?
+
+= javac WriteLetter.java
+
+2. What command would we use to execute the program described in Question1?
+= java WriteLetter
+
+3. Suppose that a program consits of more than one class. Which practice is usually better:
+   putting all class in one file, or putting each class in a seperate file?
+= putting each class in a seperate file.
