@@ -1,0 +1,2 @@
+1. Objects have two properties. One is state. What is the other?
+= Behaviour
