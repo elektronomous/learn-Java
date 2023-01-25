@@ -1,0 +1,14 @@
+1. Once a class has been declared, we can create objects that belong to the class. We say that
+   these objects are __________ of the class.
+= instances
+
+2. An object variables doesn't actually store an object. Instead, it stores a __________ to an
+   object.
+= reference
+
+3. The keyword __________ is placed before a class in order to create an object.
+= new
+
+4. Where does the term "instance variable" come from?
+= When you create an object, you create an instance of a class. the class has variables, so each
+  instances(object) that created has copied of the variables of the class. 
