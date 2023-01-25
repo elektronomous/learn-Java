@@ -1,2 +1,4 @@
-1. Objects have two properties. One is state. What is the other?
-= Behaviour
+1. The state of an object is stored in _________, _________ [two words].
+= instance variables
+2. The behaviour of an object is represented by _________, _________ [two words].
+= instance methods
