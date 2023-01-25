@@ -1,0 +1,14 @@
+1. The job of a __________ is to initialize instance variables at the time an object is created.
+= constructor
+
+2. Nested inside a class declaration are three kinds of declarations. What are they? 
+= (1) variable-declarations
+  (2) constructor-declarations
+  (3) method-declarations
+
+3. The words public and private are __________, __________ [two words]
+= Access Modifier
+
+4. A method is allowed to have __________, which represent data that will be supplied when
+   the method is called.
+= parameters
