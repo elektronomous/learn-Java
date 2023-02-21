@@ -1,5 +1,3 @@
-package Example.Business;
-
 public class Company {
     private FactoryWorker worker;
 }
@@ -49,6 +47,15 @@ public class Company {
  *   - Array => collection of other datatypes
  *     - For example, if you have a list of an String, integer, class, or the array itself you can store it to the
  *       array. (operation 6th)
+ * 
+ * = The person where is he/she work, literally has skills that it applied to its job right, so the person has a
+ *   function to the company.
+ *   - The function of the object on java called a method.
+ *   - when you encounter the function in functionional programming, the context is different.
+ *   - This function could be the behaviour of the person like breathe, move, or say something.(7th operation)
+ * = The main method inside the class is almost not even part of the class, but it needed to live in class
+ *   because the rules of java  
+ * 
  */
 
 /* OPERATIONS
@@ -58,4 +65,5 @@ public class Company {
  * create a class called Person
  * create a variable inside the 4th
  * create a class arrayDemo outside of this business package
+ * create a method called sayHello in person class
  */
