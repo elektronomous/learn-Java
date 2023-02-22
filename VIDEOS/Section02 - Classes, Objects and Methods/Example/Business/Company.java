@@ -54,8 +54,26 @@ public class Company {
  *   - when you encounter the function in functionional programming, the context is different.
  *   - This function could be the behaviour of the person like breathe, move, or say something.(7th operation)
  * = The main method inside the class is almost not even part of the class, but it needed to live in class
- *   because the rules of java  
- * 
+ *   because the rules of java that there's no function outside of the class.
+ * = Methods only call after you create the instances from the class
+ *   - the analogy is like build the building from the blueprint of the building. the building has a function 
+ *     when the building is done build right?
+ *   - now the blueprint also have a function(in the java case this is known as static method), which tell
+ *     you the date of the blue print was created for example, the length of the one part of the 
+ *     construction and so on.
+ *   - this static method is owned by the blueprint. so we can call it without creating the building (create
+ *     instances from the class). 
+ *   - this static method would be the general or utility class when encounter outside of this context.
+ *   - operation 8th
+ * = Also we have static properties(in this case the general attributes of the class), without creating the object
+ *   from the class we could imagine the blue print has a color blue, the line to make building picture is white
+ *   and so on.
+ *   - Operation 9th
+ * = So the static method/properteis are belong to the class itself, and the non-static method/properties are belong
+ *   to the instances(object) of the class itself.
+ * = Instead of creating array in-class initializer, you could create an initializer to the static properties (operation
+ *   10th) using the static initializer
+ * = You could also initialize the static properties using the static method
  */
 
 /* OPERATIONS
@@ -66,4 +84,8 @@ public class Company {
  * create a variable inside the 4th
  * create a class arrayDemo outside of this business package
  * create a method called sayHello in person class
+ * create a static method in person
+ * create a static attributes in person
+ * create a static initializer
+ * 
  */
