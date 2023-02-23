@@ -74,6 +74,9 @@ public class Company {
  * = Instead of creating array in-class initializer, you could create an initializer to the static properties (operation
  *   10th) using the static initializer
  * = You could also initialize the static properties using the static method
+ * = Member visibility(public, private, protected) define how we access the method or properties(attributes) of the object.
+ *   = public class means the class can be seen everywhere(by other class).
+ *   = public method can be access from anywhere as long as its class is accessible.
  */
 
 /* OPERATIONS
