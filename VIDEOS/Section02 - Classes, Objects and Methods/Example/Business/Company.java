@@ -1,16 +1,32 @@
+import java.time.LocalDate;
+
 public class Company {
     private FactoryWorker worker;
     protected String[] assetName;     // company has asset which we don't share to outside of the company
                                       // because we have the same product with the sub-company, we allowed
                                       // the sub to access the asset
 
-    public String companyInfo;      // okay, we share our information detail about our company
+    /*
+     * possibly, we could set the company's name to public, because the company should known by everyone
+     * but in the case of object oriented-programming, properties/attributes must be protected from
+     * change on purpose by user who create the code. So, we make the private to the company name
+     * 
+     */
+    private String companyName;      // okay, we share our information detail about our company
+    private LocalDate companyDob;
+
     private String companyFile;     // we don't want to other know about our file right? since it may be contain
                                     // secret of the company
 
+    // suppose we make a company
+    public Company(String companyName, LocalDate dob) {
+        this.companyName = companyName;
+        this.companyDob = dob;
+    }
+
 
     public void evacuateArea() {
-        System.out.println("This area must be accessible to all of the worker.")
+        System.out.println("This area must be accessible to all of the worker.");
     }
 
     /*
@@ -40,6 +56,7 @@ public class Company {
 
     private void networkRoom() {
         System.out.println("This network room only accessible by the IT staff.");
+        
     }
     
 }
@@ -140,6 +157,76 @@ public class Company {
  * = private properties only accessible by the method(main method as well) of the class, not the other class.
  * = public properties accessible to the class or the other class's method.
  * = protected properties accessible through the same package, same class or the subclass extend the class of this properties.
+ * 
+ * CONSTRUCTORS
+ * = You create a constructor inside the class with the access modifier following name that's the same as class name, 
+ *   with no return datatype.
+ * = Constructor allows you to initialize any properties as the object being created (operation 13th)
+ * = Why do we need constructors?
+ *   = Well, we create object from class and we need the constructor method to create that object inside the class.
+ *   = If we don't specify how we construct the object from the class(blue print), you only have the class and that's
+ *     for sure is useless right?
+ *   = All object we see around us has properties right? that's how we know the object we encounter. so that we should
+ *     has constructor when creating class.
+ * = You call the constructor by using the new keyword
+ *          
+ *          Company Tesla = new Company("Tesla", LocalDate.of(year:1997, month:2, dayOfMonth:30));
+ * 
+ * = In practice, you don't construct an object with no value. It's not recommended in programming
+ * = If you write a class and dont create any construct at all, java will give you a free no argument default
+ *   constructor. So it still valid to create object like the following with no construct at all:
+ *          
+ *          Company Amazon = new Company();
+ * 
+ * = But when you create a constructor, the free no argument default constructor will excluded. Java will give you
+ *   an error if you try to use it.
+ * 
+ * PROPERTIES ENCAPSULATION
+ * = Java convention defined to get access(get or set value) to the properties of a class, you need a setter and getter
+ *   methods. 
+ * = When creating a class, by default we should make the properties private or protected or package protected 
+ * = It's not recommended to access the properties directly, and the standard way is we expose the properties 
+ *   via getter or setter methods.
+ * = What's the purpose of the getter setter method when eventually the properties we're accessed are modified?
+ *   = By using getter and setters, we have opportunity to do a level of protection if we want to.
+ *   = The user who's calling getter and setter doesn't need to know if we're doing any protections or changing
+ *     the data at all.
+ *   = Suppose the person you create using Person class is like the following:
+ *      
+ *          Person michael = new Person("michael", "james", LocalDate.of(year:1980, month:2, dayOfMonth:30));
+ *  
+ *   = When you try to get the name, you'll likely get the "michael" not "Michael" that supposed to be so.
+ * 
+ *          System.out.format("This person's name: %s", Person.getName());      // => michael
+ * 
+ *   = And the protection we provide when the user program try to get the name is like the following:
+ *          
+ *          public String getName() {
+ *              // concatenate the first character of the name
+ *              // with the rest of the characters
+ *              return firstName.substring(0, 1).toUpperCase() + firstName.substring(1);
+ *          }
+ * 
+ *  = Now then, when we get the name we get the correct following:
+ *      
+ *          System.out.format("This person's name: %s", person.getName());      // => Michael
+ * 
+ * = Suppose you remind of the conventional name should be capitalized on the first character, you
+ *   could use the setter methods to change your last name properties
+ *          
+ *          public void setLastName(String name) {
+ *              this.lastName = name.substring(0,1).toUpperCase();
+ *          }
+ * 
+ *          setLastName("James");
+ * 
+ * = Then in the future, you'll get the correct name
+ *      
+ *          System.out.format("This person's last name: %s", person.getLastName());
+ *          
+ * = The setter and getter methods help you to verify the input of the user.
+ * = So the user doesn't control the input to your class, make the code buggy, doesn't change your
+ *   code directly that make the class doesn't know the modified properties.
  */
 
 /* OPERATIONS
@@ -155,4 +242,5 @@ public class Company {
  * create a static initializer
  * implement the visibility to the company
  * create a public, private, and protected room in company
+ * create a constructor for Person class
  */

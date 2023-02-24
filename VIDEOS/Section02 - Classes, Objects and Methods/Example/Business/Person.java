@@ -1,6 +1,7 @@
 public class Person {
     // declaring => create a variable without assigning a value.
-    private String firstName = "Faza Akbar";
+    private String firstName = "Faza";
+    private String lastName = "Akbar";
     private int age;
     private long id;
     private char firstInitialName;
@@ -16,6 +17,14 @@ public class Person {
     public static boolean isHavingFeel;
     // and so on
 
+    // CONSTRUCTOR places at the bottom-first of the properties
+    public Person(String fname, String lname, int age) {
+        this.firstName = fname;
+        this.lastName = lname;
+        this.age = age;
+        this.firstInitialName = this.firstName.toUpperCase().charAt(0);
+    }
+
     // generally, we know what the person look like
     // static initializer
     static {
@@ -24,6 +33,7 @@ public class Person {
         isHavingNose = true;
     }
     // so we could say that person have nose, mouth, ears and so on.
+
 
     /* 
      * public => access modifier
@@ -94,8 +104,25 @@ public class Person {
         System.out.println("Person's moving");
     }
 
+    // getter
+    public String getFirstName() {
+        return firstName.substring(0,1).toUpperCase() + firstName.substring(1);
+    }
+    public int getAge() {
+        return age;
+    }
+
+    // setter
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
     public static void main(String[] args) {
-        Person p1 = new Person();
+        Person p1 = new Person("michael", "james", 35);
 
         // the person we created say hello
         p1.sayHello();
@@ -117,5 +144,7 @@ public class Person {
         move();
         // you can access the static method
         System.out.println("Is human have nose? " + isHavingNose);
+        
+        System.out.format("The first name: %s", p1.getFirstName());
     }
 }
