@@ -1,8 +1,51 @@
 public class Company {
     private FactoryWorker worker;
+    protected String[] assetName;     // company has asset which we don't share to outside of the company
+                                      // because we have the same product with the sub-company, we allowed
+                                      // the sub to access the asset
+
+    public String companyInfo;      // okay, we share our information detail about our company
+    private String companyFile;     // we don't want to other know about our file right? since it may be contain
+                                    // secret of the company
+
+
+    public void evacuateArea() {
+        System.out.println("This area must be accessible to all of the worker.")
+    }
+
+    /*
+     * the rest room only available for worker on the company and the sub-company
+     */
+    protected void restRoom() {
+        System.out.println("This area must be accessible to all of the worker in the company.");
+    }
+    /* 
+     * the working area could accessible by the sub-company and the company itself
+     */
+    protected void workArea() {
+        System.out.println("This work are must be accessible by sub-company and the company itself.");
+    }
+
+    /*
+     * private means these room only accessible through this company, not the out of the company
+     * or the sub-company
+     */
+    private void labRoom() {
+        System.out.println("This lab is only accessible by certain worker.");
+    }
+
+    private void cleaningRoom() {
+        System.out.println("This cleaning room only accessible by the cleaner staff.");
+    }
+
+    private void networkRoom() {
+        System.out.println("This network room only accessible by the IT staff.");
+    }
+    
 }
 
 /* NOTE
+ * INTRODUCTION
  * = class should be capitalized because it's the standard convention in java programming.
  * = public => define the visibility of the class
  * = class => the keyword that indicate we're creating a class
@@ -28,6 +71,7 @@ public class Company {
  *   = On java, we store the firstname of the person using string datatype, age using the integer datatype or store object 
  *     on the object datatype etc. (5th operation)
  * 
+ * DATA TYPES AND VARIABLES
  * = the datatype of the person:
  *   - String => datatype for storing the text, signifies by the double double quotes("")
  *   - int => integer datatype for storing the whole number with no decimal point.
@@ -48,6 +92,7 @@ public class Company {
  *     - For example, if you have a list of an String, integer, class, or the array itself you can store it to the
  *       array. (operation 6th)
  * 
+ * METHODS
  * = The person where is he/she work, literally has skills that it applied to its job right, so the person has a
  *   function to the company.
  *   - The function of the object on java called a method.
@@ -74,9 +119,27 @@ public class Company {
  * = Instead of creating array in-class initializer, you could create an initializer to the static properties (operation
  *   10th) using the static initializer
  * = You could also initialize the static properties using the static method
+ * 
+ * 
+ * MEMBER VISIBILITY
  * = Member visibility(public, private, protected) define how we access the method or properties(attributes) of the object.
  *   = public class means the class can be seen everywhere(by other class).
  *   = public method can be access from anywhere as long as its class is accessible.
+ *   = private method only could be access via the methods within the same class, you cannot access private method inside
+ *     any other class.
+ *     = The only way to get the private method is if other method that the same class has public and this method call 
+ *       that private method.
+ *   = protected method only accessible through the same package(folder), the same class, or through subclass that extend
+ *     the class in which method is the member of the class.
+ *   = package protected has same accessibility with the protected method, the different is that package protected method
+ *     you dont write the access modifier and can't accessible through the subclass that extend the class with 
+ *     different package(folder). 
+ * = let say that on the company we have room(such as lab, IT related room, cleaning room, staff room) that limit the 
+ *   access of the factory worker, so we could set this room as private or public (operation 12 - 13)
+ *   = the company also has a secret jobs, where certain company and staff could only accessible
+ * = private properties only accessible by the method(main method as well) of the class, not the other class.
+ * = public properties accessible to the class or the other class's method.
+ * = protected properties accessible through the same package, same class or the subclass extend the class of this properties.
  */
 
 /* OPERATIONS
@@ -90,5 +153,6 @@ public class Company {
  * create a static method in person
  * create a static attributes in person
  * create a static initializer
- * 
+ * implement the visibility to the company
+ * create a public, private, and protected room in company
  */
