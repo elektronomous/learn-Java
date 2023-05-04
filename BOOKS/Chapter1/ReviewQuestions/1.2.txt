@@ -1,0 +1,18 @@
+1. A window is composed of thousands of tiny ___ .
+
+    = Pixels
+
+2. In GUI programs, messages to the user (either displaying 
+   information or asking for input) are often displayed in seperate
+   window. What are theses windows called ?
+
+   = Dialog boxes
+
+3. Which company was the first to create graphical user interfaces
+   similar to the ones we use today?
+
+   = Palo Alto Research Center
+
+4. Text-based programs are usually run from a ___, ___ [two words]
+
+   = Command line
