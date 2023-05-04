@@ -1,7 +1,7 @@
 1. What high-level language was developed during the 1960s
    to teach programming to beginners?
 
-   = FORTRAN
+   = BASIC
 
 2. The original, human-readable version of a program is called ___, ___
    [two words]
