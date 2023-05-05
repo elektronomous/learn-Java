@@ -1,0 +1,18 @@
+1. What is the name of the = operator ?
+   
+   = Assignment operator
+
+2. Suppose that i is a variable declared in a method. What happens if
+   a statement tries to access the value of i (to print it, for example)
+   before i has been initialized?
+
+   = Compiler warning variable that have been initialized
+
+3. In the declaration
+
+        int i = 0;
+    
+   we say that 0 is an ____
+
+   = Initializer
+   

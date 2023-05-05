@@ -1,0 +1,17 @@
+1. Values of ___ type are floating-point numbers that can be
+   as large as 1.79 x 10^308
+
+   = Double
+
+2. The ___ type has only two variables.
+   
+   = Boolean
+
+3. Values of the ___ type are single characters
+
+   = char
+
+4. A ___ is a token that represents a particular number or other
+   value
+  
+   = Literal
