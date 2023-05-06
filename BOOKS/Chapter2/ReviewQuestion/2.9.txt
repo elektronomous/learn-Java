@@ -1,0 +1,17 @@
+1. In a method call, the method's name is followed by its ___ 
+   which are enclosed in a parentheses.
+
+   = arguments
+
+2. Methods such as abs and sqrt belong to the ___ class
+
+   = Math
+
+3. Methods that return a result correspond to ___ in matemathics.
+
+   = functions
+
+4. Name three ways to use a value returned by a method.
+
+   = we can use the value to argument to a call of a method,
+     display it and it could be operands on an expression.
