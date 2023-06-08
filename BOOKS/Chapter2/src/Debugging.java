@@ -1,6 +1,6 @@
 public class Debugging {
     public static void main(String[] args) {
-        int i;
+        int i = 1;
         System.out.println(i);
     }
 }
