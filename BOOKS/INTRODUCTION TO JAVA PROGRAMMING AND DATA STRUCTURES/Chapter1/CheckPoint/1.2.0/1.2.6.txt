@@ -1,0 +1,2 @@
+What unit is used to measure memory size? What unit is used to measure disk?
+= You could measure both of them using MB(Mega Byte), GB(Giga Byte) and/or TB(Terabyte).

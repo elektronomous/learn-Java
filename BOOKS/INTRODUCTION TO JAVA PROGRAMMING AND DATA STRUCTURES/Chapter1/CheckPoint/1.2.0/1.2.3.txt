@@ -1,0 +1,2 @@
+What does the acronym CPU stand for ? What unit is used to measure CPU speed?
+= Central Processing Unit | Hertz (HZ)

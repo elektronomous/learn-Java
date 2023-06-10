@@ -1,0 +1,5 @@
+What is memory for? What does RAM stand for? Why is memory called RAM?
+= it's used to store program's data and program's instruction
+= Random Access Memory
+= Because the way the computer stores the data and the instructions at random
+  places.
