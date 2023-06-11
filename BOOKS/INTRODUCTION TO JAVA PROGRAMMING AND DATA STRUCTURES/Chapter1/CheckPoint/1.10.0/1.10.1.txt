@@ -1,0 +1,7 @@
+What are syntax errors (compile errors), runtime errors, and logic errors?
+= syntax errors are the errors where caused by program doesn't follow the
+  Java Specification Language.
+= runtime errors are the errors when running the program and the programs probably
+  don't know how to handle the logic.
+= logic errors are the errors when the programs dont follow what the programs are intended
+  to do.
