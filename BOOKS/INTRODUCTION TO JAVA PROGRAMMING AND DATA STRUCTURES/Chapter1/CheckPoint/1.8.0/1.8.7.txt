@@ -1,0 +1,4 @@
+if a NoClassDefFoundErr occurs when you run a program,
+what is the cause of the error?
+= The class we specified doesn't follow the name of the
+  filename we created.

@@ -1,0 +1,14 @@
+Reformat the following program according to the program
+style and documentation guidelines. Use the end-of-line brace
+style
+
+public class Test
+{
+    // Main method
+    public static void main(String[] args) {
+        /** Display output */
+        System.out.println("Welcome to Java!");
+    }
+} 
+
+= The answer is in Test.java
