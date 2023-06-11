@@ -1,0 +1,4 @@
+What is an operating system? List some popular operating systems
+= Operating system is the program that controls and manages the system
+  (monitor, mouse, keyboard etc)
+= Linux, Mac OS, Windows

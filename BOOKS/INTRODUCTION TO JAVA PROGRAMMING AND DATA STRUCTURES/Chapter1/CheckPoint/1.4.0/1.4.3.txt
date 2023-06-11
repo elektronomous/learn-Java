@@ -1,0 +1,7 @@
+Wjat are multiprogramming, multithreading, multiprocessing?
+= multiprogramming is the OS feature which allows the multiple program
+  to run concurently
+= multithreading is the OS feature that allows a program which could run
+  multiple task to run conccurently
+= multiprocessing is the CPU's ability that provided to the OS so that it could
+  process the program in multiple CPU. 

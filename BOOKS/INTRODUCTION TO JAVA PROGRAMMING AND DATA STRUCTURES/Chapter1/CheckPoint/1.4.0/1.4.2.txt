@@ -1,0 +1,4 @@
+What are the major responsibilities of an operating system? 
+= control and manage system activies
+= providing resource for the program
+= schedulling operations
