@@ -1,0 +1,3 @@
+What does JDK stand for? What does JRE stand for?
+= Java Development Kit
+= Java Runtime Environment
