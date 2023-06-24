@@ -1,0 +1,5 @@
+Find the largest and smallest byte, short, int, long, float and double.
+Which of these data type requires the least amount of memory?
+
+= The byte is the data type that requires the least amount of memory
+  since it only stores 8-bit.
