@@ -1,0 +1,7 @@
+What are the naming conventions for class names, method names, constants
+and variables? which of the following items can be a constant, a method,
+a variable or a class according to the Java naming conventions?
+
+= for class names capitalize the first letter on each word
+= variable and method names capitalize the first letter for the subsequent word
+= constant should be capitalize all the letter.
