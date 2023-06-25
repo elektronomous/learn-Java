@@ -1,4 +1,3 @@
-package BOOKS.INTRODUCTION_TO_JAVA_PROGRAMMING_AND_DATA_STRUCTURES.Chapter2.src;
 import java.util.Scanner;
 
 public class ComputeAreaWithConstant {

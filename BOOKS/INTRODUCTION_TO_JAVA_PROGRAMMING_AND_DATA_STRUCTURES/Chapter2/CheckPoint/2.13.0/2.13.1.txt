@@ -1,0 +1,28 @@
+How do you obtain the current second, minute and hour?
+
+= we begin from total milli second we get from System.currentTimeMillis()
+= we get the total second by dividing by 1000 and we get the current second
+  by modulo the total second by 60
+= we get the total minute by dividing the total second by 60 and we get the current
+  minute by modulo the total minute by 60
+= we get the total hour by dividing the total minute by 60 and we get the current hour
+  by modulo the total hour by 60
+
+
+= how does it work ? say that we have 1000 seconds we want to convert it to minutes
+  = first we divide it by 60
+    
+        1000 / 60 = 16
+  
+  = we don't include the decimal point because we're going to show you the remainder
+    part as the current seconds
+
+  = now if you multiply the 16 by 60 you'll get
+
+        16 * 60 = 960
+
+  = and the remainder part 1000 from 960 is 40
+
+        16:40;
+
+  = now you can advance this by current hour and minutes.

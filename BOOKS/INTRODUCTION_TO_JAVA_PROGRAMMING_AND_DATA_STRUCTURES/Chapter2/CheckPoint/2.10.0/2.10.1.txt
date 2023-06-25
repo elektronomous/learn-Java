@@ -1,0 +1,3 @@
+How many accurate digits are stored in a float or double type variable?
+
+= for the float is about 6 - 9 significant digits and double 15 - 17 digits.
