@@ -1,0 +1,10 @@
+System analysis seeks to analyze the data flow and to identify the system’s input and output. When you perform analysis, it helps to identify what the output is first, then figure out
+what input data you need in order to produce the output.
+
+The output is the monthly payment and total payment, which can be obtained using the following formulas:
+
+    monthlyPayment = loanAmount * monthlyInterestRate / 1 - 1 / (1 + monthlyInterestRate)^numberOfYears * 12
+    totalPayment = monthlyPayment * numberOf Years * 12
+
+Therefore, the input needed for the program is the monthly interest rate, the length of the
+loan in years, and the loan amount.

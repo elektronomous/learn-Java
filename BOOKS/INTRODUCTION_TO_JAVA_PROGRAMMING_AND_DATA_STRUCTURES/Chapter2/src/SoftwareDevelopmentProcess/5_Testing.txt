@@ -1,0 +1,7 @@
+Testing ensures the code meets the requirements specification and weeds out bugs. An
+independent team of software engineers not involved in the design and implementation of the
+product usually conducts such testing
+
+After the program is implemented, test it with some sample input data and verify whether the
+output is correct. Some of the problems may involve many cases, as you will see in later chapters.
+For these types of problems, you need to design test data that cover all cases.
