@@ -1,0 +1,2 @@
+Maintenance is concerned with updating and improving the product. A software product
+must continue to perform and improve in an ever-evolving environment. This requires periodic upgrades of the product to fix newly discovered bugs and incorporate changes.

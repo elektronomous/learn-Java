@@ -1,0 +1,6 @@
+List the five major hardware components of a computer.
+1. Input Device (Keyboard & Mouse)
+2. Output Device (Monitor)
+3. Storage Device (USB)
+4. NIC (Network Interface Card)
+5. CPU

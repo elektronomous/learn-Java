@@ -1,0 +1,18 @@
+1. Which other programming language is similar to Java?
+
+   = C++
+
+2. An ___ is a collection of related data along with operations
+   on that data.
+
+   = Object
+
+3. What does it mean to say that Java programs are "robust" ?
+  
+   = When programming errors occured, it doesn't cripple the program
+     or bugging the computer (compromise the system).
+
+4. What was a major reason for giving Java the ability to support multiple
+   threads?
+
+   = It was for improve programming performance reason.

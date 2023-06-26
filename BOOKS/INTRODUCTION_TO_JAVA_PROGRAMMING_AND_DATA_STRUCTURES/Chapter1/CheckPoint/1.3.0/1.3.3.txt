@@ -1,0 +1,5 @@
+What is a high-level programming language? What is a source program?
+= High-level programming language is the language that understandable
+  by human or created in human-form language.
+= source program is the program itself written in high-level programming
+  language

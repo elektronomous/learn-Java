@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 {
   "java.dependency.syncWithFolderExplorer": false,
   "java.debug.settings.onBuildFailureProceed": true
 }
+=======
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.autoSave": "afterDelay",
+  "java.semanticHighlighting.enabled": true,
+  "java.jdt.ls.vmargs": "",
+  "java.import.gradle.jvmArguments": ""
+}
+>>>>>>> 14a8eae654d6114b5f1b1b907c799373cdc49d07

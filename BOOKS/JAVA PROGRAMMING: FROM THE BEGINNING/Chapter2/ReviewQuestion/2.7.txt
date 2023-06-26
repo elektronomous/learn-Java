@@ -1,0 +1,17 @@
+1. Expression are built out of operators and ___
+
+   = Operands
+
+2. List two symbols that represent both unary and binary operators.
+  
+   = + and -
+
+3. When the value of an expression contains a slight error because
+   of the way in which floating-point numbers are stored, we call this a ___
+   error
+
+   = Round-off
+
+4. The += and -= operators are ___ ___ [two words] operators.
+
+   = compound assignment.

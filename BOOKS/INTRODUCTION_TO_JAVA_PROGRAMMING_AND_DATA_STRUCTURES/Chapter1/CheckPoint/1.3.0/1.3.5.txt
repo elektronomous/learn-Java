@@ -1,0 +1,4 @@
+What is the difference between an interpreted language and compiled language?
+= The interpreted language is executed right away after one of its statements 
+  converted to machine code
+= the compiled language is executed after all of the statements converted to machine-code instructions

@@ -1,0 +1,2 @@
+Is Java case sensitive? What is the case for Java keywords?
+= Yes, it's. Main and main is different meaning.

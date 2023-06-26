@@ -1,0 +1,4 @@
+What doesn the REPL stand for? How do you lunch JShell?
+
+= Read - Evaluate - Print - Loop
+= by type "jshell" to the command line 

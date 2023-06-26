@@ -1,0 +1,13 @@
+In each part below, locate the error and show how to fix it
+(a) int a = b = 0;
+    
+    => int a, b = 0;
+
+(b) int j = 1;
+    int j = i + 2, k = i + 3;
+    int i = j + k;
+
+    = int j = 1;
+      int i = j + k;
+      int j = i + 2, k = i + 3;
+      

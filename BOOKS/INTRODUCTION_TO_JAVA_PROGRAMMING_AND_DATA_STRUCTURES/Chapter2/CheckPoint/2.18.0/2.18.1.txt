@@ -1,0 +1,16 @@
+Show the output of Listing 2.10 with the input value 1.99. Why does the program
+produce an incorrect result for the input 10.03?
+
+(answer):
+Enter an amount in double (e.g., 11.56): $1.99
+Your amount 1.99 is consists of 
+ 1 dollars
+ 3 quarters
+ 2 dimes
+ 0 nickels
+ 4 pennies
+
+= Because the precision of the double data type isn't accurate
+  since we're casting it to int.
+  
+

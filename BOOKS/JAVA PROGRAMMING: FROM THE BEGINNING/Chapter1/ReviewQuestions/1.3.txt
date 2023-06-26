@@ -1,0 +1,12 @@
+1. Most recipes in cookbooks wouldn't be suitable as computer algorithms.
+   Why not?
+
+   = Because the recipe express the algorithms using Natural Language(Human
+     Language).
+
+2. Algorithms can be expressed in a natural language, such as English. List two
+   other ways to express algorithms.
+
+   = You can express the algorithms using
+     (1) programming language or
+     (2) Pseudocode

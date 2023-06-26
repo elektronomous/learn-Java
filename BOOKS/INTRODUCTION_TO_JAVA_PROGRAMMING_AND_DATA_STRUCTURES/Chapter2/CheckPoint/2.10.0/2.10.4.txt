@@ -1,0 +1,4 @@
+Which of the following are correct literals?
+5_2534e+1, _2534, 5_2, 5_
+
+= 5_2534e+1 and 5_2

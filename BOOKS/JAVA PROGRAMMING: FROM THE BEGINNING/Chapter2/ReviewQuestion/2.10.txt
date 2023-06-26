@@ -1,0 +1,18 @@
+1. An ___ ___ [two words] is a combination of characters that
+   represents a single character.
+
+   = escape sequences
+
+2. What operator can be used to combine multiple data items into
+   a single string?
+
+   = +(plus) operator
+
+3. Before a program attempts to read user input, it should first ___
+   the user by displaying a message.
+
+   = prompt
+
+4. Java allows classes to be grouped into larger units known as ___
+
+   = packages

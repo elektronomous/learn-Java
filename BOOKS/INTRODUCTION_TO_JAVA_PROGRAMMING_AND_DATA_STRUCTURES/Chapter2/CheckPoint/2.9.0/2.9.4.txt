@@ -1,0 +1,8 @@
+What is the result of 25 / 4? How would you write the expression if you wished
+the result to be a floating-point number?
+
+= the result is 6
+= to make it result to be floating-point number 
+
+    25.0 / 4
+    

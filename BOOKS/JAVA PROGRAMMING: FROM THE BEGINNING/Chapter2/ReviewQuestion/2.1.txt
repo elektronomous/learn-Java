@@ -1,0 +1,17 @@
+1. A ___ provides information that might be useful to someone reading
+   a program
+
+   = Comments
+
+2. A series of characters enclosed in double quotes is said to be a ___
+
+   = String
+
+3. What does println stand for?
+
+   = print with a new line
+
+4. A Java program consits of classes. What do classes consist of?
+
+   = Variable
+   = Methods

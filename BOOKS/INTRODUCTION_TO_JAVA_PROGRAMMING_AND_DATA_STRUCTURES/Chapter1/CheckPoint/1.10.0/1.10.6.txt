@@ -1,0 +1,19 @@
+Identify and fix the errors in the following code:
+
+public class Welcome {
+    public static void main(String[] args) {
+        System.out.println('Welcome to Java!);
+    }
+)
+
+= This will be the syntax errors since we close the opening-brace
+  by the closing-parentheses and the closing of the quote.
+
+= fix it:
+
+public class Welcome {
+    public static void main(String[] args) {
+        System.out.println('Welcome to Java!');
+    }
+}
+

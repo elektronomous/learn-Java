@@ -1,0 +1,17 @@
+1. What is the "spec" for a program?
+
+   = The detail explanation about what the programs' will doing.
+
+2. What is the second step in programming process, after the specification
+   is written?
+   
+   = Design the program.
+
+3. A problem that prevents a program from working correctly is called ___.
+
+   = Bugs
+
+4. After a program is finished and put into service, change are often made
+   to the program later. What is this process called?
+
+   = Maintenance.

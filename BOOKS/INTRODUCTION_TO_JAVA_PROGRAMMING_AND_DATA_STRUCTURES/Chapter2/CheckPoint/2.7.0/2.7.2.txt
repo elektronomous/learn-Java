@@ -1,0 +1,24 @@
+Translate the following algorithm into Java code:
+(1) Declare a double variable named miles with an initial value 100
+(2) Declare a double constant named KILOMETERS_PER_MILE with value 1.609;
+(3) Declare a variable named kilometers, multiply miles and KILOMETERS_PER_MILE
+    and assign the result to kilometers
+(4) display kilometers in the console
+What is kilometers after step 4?
+
+(answer):
+
+    public class Test {
+        public static void main(String[] args) {
+            // (1)
+            double miles = 100
+            // (2)
+            final double KILOMETERS_PER_MILE = 1.609;
+            // (3)
+            double kilometers = miles * KILOMETERS_PER_MILE;
+            // (4)
+            System.out.println("The miles in kilometers is " + kilometers + " km");
+        }
+    }
+
+= 160.9

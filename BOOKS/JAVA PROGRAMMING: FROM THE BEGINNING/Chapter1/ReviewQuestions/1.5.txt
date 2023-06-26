@@ -1,0 +1,19 @@
+1. What high-level language was developed during the 1960s
+   to teach programming to beginners?
+
+   = BASIC
+
+2. The original, human-readable version of a program is called ___, ___
+   [two words]
+
+   = Source code
+
+3. Executing a Java program involves the use of
+   (a) a compiler
+   (b) an interpreter
+   (c) both --------------> this the answer
+
+4. Java programs are translated to bytecode instructions for the ___, ___, ___
+   [three words]
+
+   = Java Virtual Machine.

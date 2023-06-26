@@ -1,0 +1,23 @@
+Add parentheses to the following expressions to indicate how
+Java will interpret them. (An Expression that contains n operators
+will need n - 1 sets of parentheses)
+
+(a) a + - + b + - d
+
+    = (a + (-(+(b))) + (-(d)))
+
+(b) a / b / c * d * e
+
+    = ((((a / b) / c) * d) * e)
+
+(c) a + b - c + d
+
+    = (((a + b) -c) + d)
+
+(d) a * b / c % d + e
+
+    = (((a * b) / c) % d) + e
+
+(e) - a - b - c - d
+
+    = ((- (a) -b) - c) - d 
