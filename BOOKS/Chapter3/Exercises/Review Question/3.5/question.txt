@@ -1,3 +1,0 @@
-1. To perform an operation on an object, we _______ one of the instance methods
-   associated with the object.
-= calling
