@@ -1,7 +1,0 @@
-What is a round-off error? Can integer operations cause round-off errors? Can
-floating-point operations cause round-off errors?
-
-= round-off errors is the computer condition where the approximated value
-  is difference with the actual value.
-
-= All the floating-point data type can get round-off errors.

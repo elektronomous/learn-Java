@@ -1,7 +1,0 @@
-How would you write the following arithmetic expression?
-= (-b + 2b2 - 4ac) / 2a
-
-
-(answer):
-
-    ((-b) + 2 * b * 2 - 4 * a * c) / 2a

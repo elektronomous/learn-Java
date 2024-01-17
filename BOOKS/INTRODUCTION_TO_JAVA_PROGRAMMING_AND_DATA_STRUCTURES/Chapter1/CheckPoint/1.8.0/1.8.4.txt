@@ -1,4 +1,0 @@
-What is the command to run Java program?
-= java test.java
-= when it has been compiled,
-        java test

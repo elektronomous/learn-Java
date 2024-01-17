@@ -1,4 +1,0 @@
-If a NoSuchMethodError occurs when you run a program,
-what is the cause of the error?
-= If you miss-spelled the keyword main method as Main, MAIN, or
-  other, you'll surely get this error.

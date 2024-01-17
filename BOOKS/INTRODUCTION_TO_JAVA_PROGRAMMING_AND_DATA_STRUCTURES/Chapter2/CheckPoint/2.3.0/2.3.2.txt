@@ -1,8 +1,0 @@
-Are there any performance differences between the following two
-import statements?
-    
-    import java.util.Scanner;
-    import java.util.*;
-
-= As the book says there are no differences between importing wildcard and
-  importing specific class on packages.

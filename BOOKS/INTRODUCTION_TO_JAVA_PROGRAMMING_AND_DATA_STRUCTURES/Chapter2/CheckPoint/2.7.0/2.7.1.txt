@@ -1,8 +1,0 @@
-What are the benefits of using constants ? Declare an int constant SIZE
-with value 20
-
-(answer):
-    = You don't have to type the same value if you it in multiple times
-    = When you want to change it, you only change it by one times
-    =
-            final int SIZE = 20;

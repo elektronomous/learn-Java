@@ -1,5 +1,0 @@
-What is an interpreter? what is compiler?
-= Interpreter is a program that convert a statement(high-level programming language instruction)
-  to machine language and execute it right away
-= compiler is a program that convert all of the statements into machine-code file and later
-  it could be executed.

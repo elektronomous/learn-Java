@@ -1,3 +1,0 @@
-What are the input and output of a Java compiler?
-= You input your java program (test.Java) and the output will 
-  be the bytecode of the program (test.class)

@@ -1,9 +1,0 @@
-Implementation involves translating the system design into programs. Separate programs
-are written for each component then integrated to work together. This phase requires the use
-of a programming language such as Java. The implementation involves coding, self-testing,
-and debugging (that is, finding errors, called bugs, in the code).
-
-
-Implementation is also known as coding (writing the code). In the formula, 
-you have to compute (1 + monthlyInterestRate)^numberOfYears*12, which can 
-be obtained using Math.pow(1 + monthlyInterestRate, numberOfYears * 12).

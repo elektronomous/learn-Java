@@ -1,2 +1,0 @@
-What is the statement to display a string on the console?
-= System.out.print() or System.out.println()

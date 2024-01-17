@@ -1,3 +1,0 @@
-Deployment makes the software available for use. Depending on the type of software,
-it may be installed on each user’s machine, or installed on a server accessible on the
-Internet.

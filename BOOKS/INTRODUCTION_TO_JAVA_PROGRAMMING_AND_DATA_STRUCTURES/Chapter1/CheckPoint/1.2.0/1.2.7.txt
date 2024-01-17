@@ -1,3 +1,0 @@
-What is the primary difference memory and storage device?
-= You store data permanently in storage device, while the memory
-  is used to store the data/instructions in temporarily.

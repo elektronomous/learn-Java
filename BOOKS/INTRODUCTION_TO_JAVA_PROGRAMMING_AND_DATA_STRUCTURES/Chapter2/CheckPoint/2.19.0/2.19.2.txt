@@ -1,6 +1,0 @@
-What is an integer overflow? Can floating-point operations cause overflow?
-
-= integer overflow is a condition where the data is bigger than the data type
-  could handle.
-
-= it could be, since the floating-point data type has limit in stores a value.

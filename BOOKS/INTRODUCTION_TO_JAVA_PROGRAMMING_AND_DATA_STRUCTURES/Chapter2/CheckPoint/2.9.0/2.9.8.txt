@@ -1,5 +1,0 @@
-Suppose m and r are integers. Write a Java expression for mr^2 to obtain
-a floating-point result.
-
-(answer):
-    m * Math.pow(r, 2);

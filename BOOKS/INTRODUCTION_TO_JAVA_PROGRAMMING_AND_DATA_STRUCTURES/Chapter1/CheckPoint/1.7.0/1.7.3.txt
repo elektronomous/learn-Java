@@ -1,7 +1,0 @@
-What is a comment? Is the comment ignored by the compiler?
-how do you denote the comment line and a comment paragraph?
-
-= comment is the way to documents your program what it's intended to do
-= Yes, it's 
-= The comment line denotes using // (double slash)
-= The comment paragraph denotes using /* and */

@@ -1,2 +1,0 @@
-What is java applet?
-= Java program that could run on browser.

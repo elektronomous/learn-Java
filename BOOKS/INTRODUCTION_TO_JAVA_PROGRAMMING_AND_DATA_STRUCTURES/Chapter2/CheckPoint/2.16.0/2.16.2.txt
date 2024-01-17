@@ -1,6 +1,0 @@
-What does an explicit casting from a double to an int do with the fractional part
-of the double value? Does casting change the variable being cast?
-
-= the fractional part of the double will be truncated and the value of the double 
-  doesn't change when casting to int.
-  

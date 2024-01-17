@@ -1,3 +1,0 @@
-Can different types of numeric values be used together in a computation?
-
-= Yes, it can.

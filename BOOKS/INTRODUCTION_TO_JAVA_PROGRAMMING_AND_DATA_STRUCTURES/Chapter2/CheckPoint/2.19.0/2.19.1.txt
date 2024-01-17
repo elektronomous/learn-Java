@@ -1,2 +1,0 @@
-Can you declare a variable as int and later redeclare it as double?
-= we can only declare a variable once.

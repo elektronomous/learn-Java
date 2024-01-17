@@ -1,2 +1,0 @@
-What is the command to compile java program?
-= javac test.java

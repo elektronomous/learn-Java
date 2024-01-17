@@ -1,4 +1,0 @@
-Write a statement to display the result of 2 ^ 3.5
-
-(answer):
-    Math.pow(2, 3.5);

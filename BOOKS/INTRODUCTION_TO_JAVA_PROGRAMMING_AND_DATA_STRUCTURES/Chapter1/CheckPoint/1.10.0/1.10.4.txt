@@ -1,5 +1,0 @@
-If your program needs to read integers, but the user entered
-strings, an error would occur when running this program.
-what kind of error is this?
-
-= runtime errors

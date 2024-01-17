@@ -1,3 +1,0 @@
-What are hardware and software ? 
-= hardware is the visible form of computer component
-= software is the program itself which is invsible.

@@ -1,2 +1,0 @@
-What language does the CPU understand?
-= The machine language

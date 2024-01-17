@@ -1,5 +1,0 @@
-What is an assembly language? What is an assembler?
-= Assembly language is the low-level language to ease the programmer
-  to create a software instead of using the machine instruction
-= Assembler is the a program to convert the mnemonics(assembly language's instruction)
-  to machine instruction

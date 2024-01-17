@@ -1,5 +1,0 @@
-Are tools like NetBeans and Eclipse different languages from Java,
-or are they dialects or extensions of Java?
-
-= NetBeans and Eclipse aren't programming language, they're IDE
-  which a program that helps build the Java program.
