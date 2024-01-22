@@ -1,0 +1,5 @@
+What is the primary difference between memory and a storage device?
+
+(answer):
+= memory stores the data and program only when it's get electricity
+= storage device could store the data and program whether it's get electricity

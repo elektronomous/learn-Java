@@ -1,0 +1,6 @@
+If a NoSuchMethodError occurs when you run a program, what is the cause
+of the error?
+
+(answer):
+= It's because the main method you're running, isn't exist. It could be missing
+  or misstype.

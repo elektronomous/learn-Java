@@ -1,0 +1,5 @@
+If a NoClassDefFoundError occurs when you run a program, what is the
+cause of the error?
+
+(answer):
+= It's caused by you when you run a file that's not exist.

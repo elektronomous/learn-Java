@@ -1,0 +1,4 @@
+What language does the CPU understand?
+
+(answer):
+= Machine language

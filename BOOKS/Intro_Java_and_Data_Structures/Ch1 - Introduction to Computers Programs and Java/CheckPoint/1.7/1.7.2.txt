@@ -1,0 +1,4 @@
+Is Java case sensitive? What is the case for Java keywords?
+
+(answer):
+= Yes it's. All of the java keywords is lowercase.

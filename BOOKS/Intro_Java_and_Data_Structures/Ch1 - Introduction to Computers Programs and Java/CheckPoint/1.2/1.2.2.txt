@@ -1,0 +1,8 @@
+List the five major hardware components of a computer.
+
+(answer):
+= CPU
+= Input Device 
+= Communication Device
+= Storage Device
+= Output Device

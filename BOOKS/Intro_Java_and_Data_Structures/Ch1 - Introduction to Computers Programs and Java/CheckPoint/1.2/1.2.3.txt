@@ -1,0 +1,5 @@
+What does the acronym CPU stand for ? What unit is used to measure CPU
+speed?
+
+(answer):
+= The CPU stands for Central Processing Unit and it's measured in Hz (Hertz)

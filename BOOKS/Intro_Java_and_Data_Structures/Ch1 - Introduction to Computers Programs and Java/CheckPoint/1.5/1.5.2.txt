@@ -1,0 +1,4 @@
+What is a Java applet?
+
+(answer):
+= Java applet is a java program that could run in a web browser.

@@ -1,0 +1,6 @@
+What is a keyword? List some Java keywords.
+
+(answer):
+= a keyword is a word that is use to indicate that the word
+  is a code recognized by the Java Compiler. Such as {}, (),
+  main, public, void, static and so on.

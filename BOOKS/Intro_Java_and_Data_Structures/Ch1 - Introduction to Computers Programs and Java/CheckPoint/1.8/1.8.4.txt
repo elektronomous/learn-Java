@@ -1,0 +1,7 @@
+What is the command to run a Java program?
+
+(answer):
+= If you take the bytecode from the 1.8.3.txt, you will end up run the program
+  using the following command:
+
+        java someClassName

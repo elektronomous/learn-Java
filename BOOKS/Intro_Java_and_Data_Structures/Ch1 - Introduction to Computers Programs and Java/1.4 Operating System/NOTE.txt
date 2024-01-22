@@ -1,0 +1,33 @@
+The OS manages and controls a computer’s activities.
+The major tasks of an operating system are as follows:
+    ■■ Controlling and monitoring system activities
+    ■■ Allocating and assigning system resources
+    ■■ Scheduling operations
+
+Operating systems perform basic tasks, such as recognizing input from the keyboard, sending
+output to the monitor, keeping track of files and folders on storage devices, and controlling
+peripheral devices such as disk drives and printers.
+
+The operating system is responsible for determining what computer resources a program
+needs (such as CPU time, memory space, disks, and input and output devices) and for allocating
+and assigning them to run the program.
+
+The OS is responsible for scheduling programs’ activities to make efficient use of system
+resources.
+
+Multiprogramming allows multiple programs such as Microsoft Word, E-mail, and web browser to
+run simultaneously by sharing the same CPU. The CPU is much faster than the computer’s other
+components. As a result, it is idle most of the time—for example, while waiting for data to be
+transferred from a disk or waiting for other system resources to respond. A multiprogramming OS
+takes advantage of this situation by allowing multiple programs to use the CPU when it would 
+otherwise be idle. For example, multiprogramming enables you to use a word processor to edit a
+file at the same time as your web browser is downloading a file.
+
+Multithreading allows a single program to execute multiple tasks at the same time. For
+instance, a word-processing program allows users to simultaneously edit text and save it to a
+disk. In this example, editing and saving are two tasks within the same program. These two
+tasks may run concurrently.
+
+Multiprocessing is similar to multithreading. The difference is that multithreading is for
+running multithreads concurrently within one program, but multiprocessing is for running
+multiple programs concurrently using multiple processors.
