@@ -1,0 +1,5 @@
+If your program needs to read integers, but the user entered strings,
+an error would occur when running this program. What kind of error is this?
+
+(answer):
+= Runtime Error
