@@ -1,0 +1,6 @@
+Suppose m and r are integers. Write a Java expression for mr2 to obtain a
+floating-point result.
+
+(answer):
+
+    System.out.println((m/1.0) * r * r);

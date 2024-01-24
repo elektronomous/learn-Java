@@ -1,0 +1,17 @@
+Find the largest and smallest byte, short, int, long, float and double.
+Which of these data types requires the least amount of memory?
+
+(answer):
+= Byte => -128 - 127
+
+= short => -32768 - 32767
+
+= int => -2147483648 - 2147483647
+
+= long => -2^63 to 2^63-1
+
+= float => negative range => -3.4028235 E+38 -- 1.4 E-45
+        => positive range => 1.4 E-45 to  3.4028235 E+38
+
+= double => negative range => -1.7976931348623157 E+308 to -4.9 E-324
+            positive range => 4.9 E -324 to 1.7976931348623157 E+308

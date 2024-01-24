@@ -1,0 +1,5 @@
+What does REPL stand for? How do you launch JShell?
+
+(answer):
+= Read-Evaluate-Print-Loop
+= You just need to enter the command: jshell

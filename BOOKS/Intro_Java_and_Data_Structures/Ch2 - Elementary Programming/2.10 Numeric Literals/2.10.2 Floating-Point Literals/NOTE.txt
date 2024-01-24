@@ -1,0 +1,18 @@
+Floating-point literals are written with a decimal point. By default,
+a floating-point literal is treated as a double type value. For example,
+5.0 is considered a double value, not a float value.
+
+You can make a number a float by appending the letter f or F, and you 
+can make a number a double by appending the letter d or D. For example,
+you can use 100.2f or 100.2F for a float number, and 100.2d or 100.2D
+for a double number.
+
+To improve readability, Java allows you to use underscores to separate 
+two digits in a number literal. For example, the following literals are
+correct.
+
+        long value = 232_45_4519;
+        double amount = 23.24_4545_4519_3415;
+
+However, 45_ or _45 is incorrect. The underscore must be placed between 
+two digits.
