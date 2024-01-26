@@ -1,0 +1,8 @@
+There are no spaces in the augmented assignment operators. For example, + = should be +=.
+
+Like the assignment operator (=), the operators (+=, -=, *=, /=, and %=) can be used
+to form an assignment statement as well as an expression. For example, in the following
+code, x += 2 is a statement in the first line, and an expression in the second line:
+
+        x += 2;                     // Statement
+        System.out.println(x += 2); // Expression

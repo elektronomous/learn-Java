@@ -24,3 +24,25 @@ and hour as follows:
        minutes / 60 = 334217 hours).
     7. Compute the current hour from totalHours % 24 (e.g., 334217 hours % 24 = 17,
        which is the current hour).
+
+If you don't understand look at this simple example:
+
+Suppose that your watch the current time it's showing is:
+   05:20:33
+
+Now in the next 10000 seconds, what time does your watch show us:
+
+   minutes = 10000/60 = 166 minutes and 40 seconds
+   hours = 166 / 60 = 2 hours and 46 minutes
+   
+   05:20:33
+   02:46:40
+   ________ +
+   08:06:13
+
+= Now you get the concept, you can get the current seconds, current
+  minutes, and current hours by doing:
+  
+  seconds = 10000 % 60 = 40 seconds
+  minutes = (10000 / 60) % 60 = 46 minutes
+  hours = (10000 / 60 / 60) % 24 = 2 hours

@@ -1,0 +1,5 @@
+Write an expression that rounds up a double value in variable d
+to an integer.
+
+(answer):
+= (int)(d + 0.5)
