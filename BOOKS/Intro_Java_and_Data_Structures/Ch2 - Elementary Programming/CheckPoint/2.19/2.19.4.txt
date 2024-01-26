@@ -1,0 +1,8 @@
+What is round-off error? Can integer operations cause round-off errors?
+Can floating-point operations cause round-off errors?
+
+(answer):
+= Round-off error is an error in which computer shows a number that's not accurate.
+= Since integer division result only division, there's no round-off error
+  for the integer operation.
+= The round-off error is commonly happen in floting-point operations.

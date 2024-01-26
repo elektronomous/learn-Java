@@ -1,0 +1,6 @@
+Can you declare a variable as int and later redeclare it as double?
+
+(answer):
+= You only declare a variable once. If you change the type of a variable
+  that you've declared, that's compiler error
+  
