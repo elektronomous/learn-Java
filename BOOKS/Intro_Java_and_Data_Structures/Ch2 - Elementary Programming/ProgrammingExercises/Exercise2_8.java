@@ -46,5 +46,6 @@ public class Exercise2_8 {
         // Display the result first
         System.out.println("GMT: " + currentHours + ":" + currentMinutes + ":" + currentSeconds);
 
+        input.close();
     }
 }
