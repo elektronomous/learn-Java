@@ -1,0 +1,12 @@
+Can the following conversions involving casting be allowed? Write a test program
+to verify it.
+
+        boolean b = true;
+        int i = (int) b;
+
+        int i = 1;
+        boolean b = (boolean)i;
+
+(answer):
+
+= Yes, it can convert both of them.
