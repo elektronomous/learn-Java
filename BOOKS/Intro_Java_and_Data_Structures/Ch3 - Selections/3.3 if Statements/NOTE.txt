@@ -8,3 +8,11 @@ for a one-way if statement is as follows:
         if (boolean-expression) {
             statement(s);
         }
+
+The block braces can be omitted if they enclose a single statement. For example, the
+following statements are equivalent:
+
+        if (i > 0) {                                                            if (i > 0)
+            System.out.println("i is positive");    ----- Equivalent ------         System.out.println("i is positive");
+        }
+

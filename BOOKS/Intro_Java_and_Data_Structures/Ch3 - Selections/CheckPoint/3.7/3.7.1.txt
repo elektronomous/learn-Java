@@ -1,0 +1,7 @@
+Which of the following is a possible output from invoking Math.random()?
+    323.4, 0.5, 34, 1.0, 0.0, 0.234
+
+(answer):
+= Because the output from Math.random is 0 <= d < 1.0, then the possible values
+  are 0.5, 0.0, and 0.234
+  
