@@ -9,4 +9,4 @@ to verify it.
 
 (answer):
 
-= Yes, it can convert both of them.
+= No, you can't convert boolean to int and the other-direction.

@@ -1,0 +1,14 @@
+Body mass index (BMI) is a measure of health based on height and weight. 
+It can be calculated by taking your weight in kilograms and dividing it 
+by the square of your height in meters. The interpretation of BMI for 
+people 20 years or older is as follows:
+
+        BMI                     INTERPRETATION
+        ---                     --------------
+        BMI < 18.5                Underweight
+        18.5 <= BMI < 25.0        Normal
+        25.0 <= BMI < 30.0        Overweight
+        30.0 <= BMI               Obese
+
+Note that one pound is 0.45359237 kilograms, and one inch is 0.0254
+meters. Listing 3.4 gives the program.
