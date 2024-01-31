@@ -1,0 +1,37 @@
+You can hand-trace the program (i.e., catch errors by reading the program), or you
+can insert print statements in order to show the values of the variables or the 
+execution flow of the program. These approaches might work for debugging a short, 
+simple program, but for a large, complex program, the most effective approach is
+to use a debugger utility
+
+JDK includes a command-line debugger, jdb, which is invoked with a class name. jdb is 
+itself a Java program, running its own copy of Java interpreter. All the Java IDE tools, such 
+as Eclipse and NetBeans, include integrated debuggers. The debugger utilities let you follow 
+the execution of a program. They vary from one system to another, but they all support most 
+of the following helpful features.
+        ■ Executing a single statement at a time: The debugger allows you to execute one 
+          statement at a time so that you can see the effect of each statement.
+        ■ Tracing into or stepping over a method: If a method is being executed, you can 
+          ask the debugger to enter the method and execute one statement at a time in the 
+          method, or you can ask it to step over the entire method. You should step over the 
+          entire method if you know that the method works. For example, always step over 
+          system-supplied methods, such as System.out.println. 
+        ■ Setting breakpoints: You can also set a breakpoint at a specific statement. Your 
+          program pauses when it reaches a breakpoint. You can set as many breakpoints as 
+          you want. Breakpoints are particularly useful when you know where your programming
+          error starts. You can set a breakpoint at that statement, and have the program 
+          execute until it reaches the breakpoint.
+        ■ Displaying variables: The debugger lets you select several variables and display 
+          their values. As you trace through a program, the content of a variable is continuously
+          updated.
+        ■ Displaying call stacks: The debugger lets you trace all of the method calls. This 
+          feature is helpful when you need to see a large picture of the program-execution flow.
+        ■ Modifying variables: Some debuggers enable you to modify the value of a variable 
+          when debugging. This is convenient when you want to test a program with different 
+          samples, but do not want to leave the debugger.
+
+Tip
+If you use an IDE such as Eclipse or NetBeans, please refer to Learning Java Effectively with 
+Eclipse/NetBeans in Supplements II.C and II.E on the Companion Website. The supplement 
+shows you how to use a debugger to trace programs, and how debugging can help in learning 
+Java effectively.
