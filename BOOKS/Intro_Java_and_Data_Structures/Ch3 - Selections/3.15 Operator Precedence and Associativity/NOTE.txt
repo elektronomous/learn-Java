@@ -1,0 +1,44 @@
+Operator precedence and associativity determine the order in which operators are 
+evaluated.  Suppose you have this expression:
+
+    3 + 4 * 4 > 5 * (4 + 3) – 1 && (4 – 3 > 5)
+
+What is its value? What is the execution order of the operators? The expression 
+within parentheses is evaluated first. (Parentheses can be nested, in which case 
+the expression within the inner parentheses is executed first.) When evaluating an
+expression without parentheses, the operators are applied according to the 
+precedence rule and the associativity rule.
+
+Precedence Operator
+   |          var++ and var−− (Postfix)
+   |          +, − (Unary plus and minus), ++var and −−var (Prefix)
+   |          (type) (Casting)
+   |          !(Not)
+   |          *, /, % (Multiplication, division, and remainder)
+   |          +, − (Binary addition and subtraction)
+   |          <, <=, >, >= (Relational)
+   |          ==, != (Equality)
+   |          ^ (Exclusive OR)
+   |          && (AND)
+   |          || (OR)
+   |          ?: (Ternary operator)
+  \|/         =, +=, −=, *=, /=, %= (Assignment operators)
+
+The precedence rule defines precedence for operators, as shown in Table 3.8, which contains
+the operators you have learned so far. Operators are listed in decreasing order of precedence
+from top to bottom.
+
+If operators with the same precedence are next to each other, their associativity determines 
+the order of evaluation. All binary operators except assignment operators are left associative.
+
+For example, since + and − are of the same precedence and are left associative,
+
+        a - b + c - d ------- is equivalent to ------- ((a - b) + c) - d
+
+the expression operator associativity Assignment operators are right associative.
+
+        a = b += c = 5 ------ is equivalent to ------- a = (b += (c = 5))
+
+Therefore, the expression Suppose a, b, and c are 1 before the assignment; after the whole 
+expression is evaluated, a becomes 6, b becomes 6, and c becomes 5. Note that left associativity
+for the assignment operator would not make sense.
