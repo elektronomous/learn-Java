@@ -20,3 +20,7 @@ Rate              Single
 Each rate is applied to a certain amount of taxable income. For example, of a taxable income 
 of $400,000 for single filers, $8,350 is taxed at 10%, (33,950 - 8,350) at 15%, (82,250 - 33,950)
 at 25%, (171,550 - 82,250) at 28%, (372,950 - 171,550) at 33%, and (400,000 - 372,950) at 35%
+
+System.exit(status) (line 53) is defined in the System class. Invoking this method terminates the
+program. The status 0 indicates that the program is terminated normally. A nonzero status code 
+indicates abnormal termination.

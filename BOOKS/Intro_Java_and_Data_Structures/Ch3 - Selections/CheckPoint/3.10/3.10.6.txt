@@ -1,0 +1,7 @@
+What is the value of the expression x >= 50 && x <= 100 if x is 45, 67, or 101?
+
+(answer):
+
+= If x = 45, then x >= 50 && x <= 100 is true
+= If x = 67, then x >= 50 && x <= 100 is true
+= If x = 101, then x >= 50 && x <= 100 is false

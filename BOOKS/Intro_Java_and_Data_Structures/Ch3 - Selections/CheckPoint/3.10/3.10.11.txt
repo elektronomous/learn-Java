@@ -1,0 +1,5 @@
+Write a Boolean expression that evaluates to true if either weight is greater than
+50 pounds or height is greater than 60 inches, but not both
+
+(answer):
+(weight > 50 ^ height > 60)

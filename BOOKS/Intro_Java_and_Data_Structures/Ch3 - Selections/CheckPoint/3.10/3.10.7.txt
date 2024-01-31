@@ -1,0 +1,28 @@
+Suppose, when you run the following program, you enter the input 2 3 6 from
+the console. What is the output?
+
+        public class Test {
+            public static void main(String[] args) {
+                java.util.Scanner input = new java.util.Scanner(System.in);
+                double x = input.nextDouble();
+                double y = input.nextDouble();
+                double z = input.nextDouble();
+            
+                System.out.println("(x < y && y < z) is " + (x < y && y < z));
+                System.out.println("(x < y || y < z) is " + (x < y || y < z));
+                System.out.println("!(x < y) is " + !(x < y));
+                System.out.println("(x + y < z) is " + (x + y < z));
+                System.out.println("(x + y > z) is " + (x + y > z));
+            }
+        }
+
+(answer)
+x = 2
+y = 3
+z = 6
+
+(1) (x < y && y < z) is true
+(2) (x < y || y < z) is true
+(3) !(x < y) is false
+(4) (x + y < z) is true
+(5) (x + y > z) is false
