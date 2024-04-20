@@ -1,0 +1,18 @@
+Java has several types of selection statements: one-way if statements, two-way if-else
+statements, nested if statements, multi-way if-else statements, switch statements, and
+conditional operators
+
+A one-way if statement executes an action if and only if the condition is true. The syntax
+for a one-way if statement is as follows:
+    
+        if (boolean-expression) {
+            statement(s);
+        }
+
+The block braces can be omitted if they enclose a single statement. For example, the
+following statements are equivalent:
+
+        if (i > 0) {                                                            if (i > 0)
+            System.out.println("i is positive");    ----- Equivalent ------         System.out.println("i is positive");
+        }
+

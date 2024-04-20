@@ -1,0 +1,20 @@
+The word console is an old computer term that refers to the text entry and
+display device of a computer. Console input means to receive input from the keyboard, and
+console output means to display output on the monitor.
+
+Welcome.java:
+By convention, class names start with an uppercase letter.
+A class may contain several methods. The main method is the entry point where the program
+begins execution.
+In Java, comments are preceded by two slashes (//) on a line, called a line comment, or 
+enclosed between /* and */ on one or several lines, called a block comment or paragraph
+comment.
+Every class has a class block that groups the data and methods of the class. Similarly, 
+every method has a method block that groups the statements in the method. Blocks can be
+nested, meaning that one block can be placed within another, as shown in the following code:
+
+        public class Welcome { -----------------------------------|
+            public static void main(String[] args) { -------      |
+                System.out.println("Welcome to Java!");    |      |
+            } ----------------------------------------------      |
+        } --------------------------------------------------------|

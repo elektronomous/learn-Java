@@ -1,0 +1,29 @@
+Java provides six relational operators (also known as comparison operators), 
+shown in Table 3.1, which can be used to compare two values (assume radius is 5
+in the table).
+
+
+Java Operator       Mathematics Symbol  Name                        Example (radius is 5)   Result
+<                   <                   Less than                   radius < 0              false
+<=                  ≤                   Less than or equal to       radius <= 0             false
+>                   >                   Greater than                radius > 0              true
+>=                  ≥                   Greater than or equal to    radius >= 0             true
+==                  =                   Equal to                    radius == 0             false
+!=                  ≠                   Not equal to                radius != 0             true
+
+The result of the comparison is a Boolean value: true or false
+
+A variable that holds a Boolean value is known as a Boolean variable. The boolean
+data type is used to declare Boolean variables. A boolean variable can hold one of the two
+values: true or false. 
+
+        boolean lightsOn = true;
+
+true and false are literals, just like a number such as 10. They are not keywords, but are
+reserved words and cannot be used as identifiers in the program.
+
+Suppose you want to develop a program to let a first-grader practice addition. The program
+randomly generates two single-digit integers, number1 and number2, and displays to the
+student a question such as “What is 1 + 7?, ” as shown in the sample run in Listing 3.1. After
+the student types the answer, the program displays a message to indicate whether it is true or
+false.

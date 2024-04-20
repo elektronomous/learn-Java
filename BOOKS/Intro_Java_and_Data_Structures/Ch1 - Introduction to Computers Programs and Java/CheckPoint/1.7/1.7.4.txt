@@ -1,0 +1,4 @@
+What is the statement to display a string on the console?
+
+(answer):
+= System.out.println("your string here..");

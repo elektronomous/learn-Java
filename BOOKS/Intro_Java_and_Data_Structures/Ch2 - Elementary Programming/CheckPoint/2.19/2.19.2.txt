@@ -1,0 +1,8 @@
+What is an integer overflow? can floating-point operations cause overflow?
+
+(answer):
+= An integer overflow is a condition where you assign a value that's integer
+  cannot handle.
+
+= Yes, it can cause the overflow it you put a value that's greater than the float
+  capacity

@@ -1,0 +1,8 @@
+A computer’s memory (RAM) is a volatile form of data storage: Any information that has
+been saved in memory is lost when the system’s power is turned off. Programs and data are
+permanently stored on storage devices and are moved, when the computer actually uses them,
+to memory, which operates at much faster speeds than permanent storage devices can.
+
+Drives are devices for operating a medium, such as disks and CDs. A storage medium
+physically stores data and program instructions. The drive reads data from the medium and
+writes data onto the medium.

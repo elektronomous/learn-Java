@@ -1,0 +1,5 @@
+What are the input and output of a Java compiler?
+
+(answer):
+= The input is the Java source code (someClassName.java) and the output
+  would be the bytecode (someClassName.class)

@@ -1,0 +1,13 @@
+A computer is really nothing more than a series of switches. Each switch exists in two
+states: on or off. If the switch is on, its value is 1. If the switch is off, its value
+is 0. These 0s and 1s are interpreted as digits in the binary number system and are
+called bits (binary digits).
+
+The minimum storage unit in a computer is a byte. A byte is composed of eight bits. A
+small number such as 3 can be stored as a single byte.
+
+Data of various kinds, such as numbers and characters, are encoded as a series of bytes.
+An encoding scheme is a set of rules that govern how a computer translates characters 
+and numbers into data (Bytes) with which the computer can actually work. Most schemes 
+translate each character into a predetermined string of bits. In the popular ASCII 
+encoding scheme, for example, the character C is represented as 01000011 in 1 byte.

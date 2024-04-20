@@ -1,0 +1,7 @@
+A computer’s native language, which differs among different types of computers, is its
+machine language—a set of built-in primitive instructions. These instructions are in the
+form of binary code, so if you want to give a computer an instruction in its native 
+language, you have to enter the instruction as binary code. For example, to add two 
+numbers, you might have to write an instruction in binary code as follows:
+    
+    1101101010011010

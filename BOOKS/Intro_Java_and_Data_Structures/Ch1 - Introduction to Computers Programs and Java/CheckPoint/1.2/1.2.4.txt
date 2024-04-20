@@ -1,0 +1,5 @@
+What is a bit ? What is a byte ?
+
+(answer):
+= a bit is a representation of a two state, either 1 or 0.
+= a byte is an 8-bit.

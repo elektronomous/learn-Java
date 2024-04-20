@@ -1,0 +1,7 @@
+Are the following two expressions the same?
+    (a) x % 2 == 0 && x % 3 == 0
+    (b) x % 6 == 0
+
+(answer):
+= They're both different, since when you have x's values
+  less than 6, the result of % is always the x's values.

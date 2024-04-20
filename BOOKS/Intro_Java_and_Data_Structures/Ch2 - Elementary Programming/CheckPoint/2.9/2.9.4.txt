@@ -1,0 +1,8 @@
+What is the result of 25 / 4 ? How would you rewrite the expression if
+you wished the result to be floating-point numbers?
+
+(answer):
+= The first result would 6, the decimal point is truncated because both
+  are integer. to make the decimal point visible:
+
+        25.0 / 4 or 25 / 4.0 or 25.0 / 4.0, the result would be 6.25

@@ -1,0 +1,4 @@
+What is the JVM?
+
+(answer):
+= Java Virtual Machine

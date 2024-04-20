@@ -1,0 +1,4 @@
+What does IDE stand for?
+
+(answer):
+= Integrated Developemnt Environment

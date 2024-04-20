@@ -1,0 +1,10 @@
+Is (x > 0 && x < 10) the same as ((x > 0) && (x < 10))? 
+Is (x > 0 || x < 10) the same as ((x > 0) || (x < 10))? 
+Is (x > 0 || x < 10 && y < 0) the same as (x > 0 || 
+ (x < 10 && y < 0))?
+
+ (answer):
+
+ Is (x > 0 && x < 10) the same as ((x > 0) && (x < 10))? Yes, it's the same.
+ Is (x > 0 || x < 10) the same as ((x > 0) || (x < 10))? Yes, it's the same.
+ Is (x > 0 || x < 10 && y < 0) the same as (x > 0 || (x < 10 && y < 0))? Yes, it's the same.

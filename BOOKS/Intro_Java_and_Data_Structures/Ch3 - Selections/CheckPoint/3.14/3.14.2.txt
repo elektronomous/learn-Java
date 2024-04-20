@@ -1,0 +1,10 @@
+Rewrite the following if statements using the conditional operator.
+
+        if (ages >= 16)
+            ticketPrice = 20;
+        else
+            ticketPrice = 10;
+
+(answer):
+
+    ticketPrice = (ages >= 16) ? 20 : 10;

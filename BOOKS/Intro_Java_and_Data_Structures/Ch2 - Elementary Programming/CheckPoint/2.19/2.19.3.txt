@@ -1,0 +1,5 @@
+Will overflow cause a runtime-error?
+
+(answer):
+
+= No, since the value you're assigning gets wraparound

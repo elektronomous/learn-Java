@@ -1,0 +1,5 @@
+Show the output of the following code:
+
+        double amount = 5;
+        System.out.println(amount / 2);     // => 2.5
+        System.out.println(5/2);            // => 2

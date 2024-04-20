@@ -1,0 +1,7 @@
+What is an assembly language? What is an assembler?
+
+(answer):
+= assembly is a low-level language that's close to the
+  machine-language.
+= The assembler is a translator that translates the instructions
+  of the assembly-language

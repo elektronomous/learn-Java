@@ -1,0 +1,10 @@
+What data types are required for a switch variable? If the keyword break is not 
+used after a case is processed, what is the next statement to be executed? Can you 
+convert a switch statement to an equivalent if statement, or vice versa? What are 
+the advantages of using a switch statement?
+
+(answer):
+= The data types are short, int, String, char, and byte
+= The next statement is the case after the matched-case
+= It could be converted, the advantage using switch is that we avoid the overuse of
+  using the if-else statement which make the code ugly.

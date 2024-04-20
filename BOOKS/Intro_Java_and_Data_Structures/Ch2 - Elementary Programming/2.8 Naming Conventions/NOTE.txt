@@ -1,0 +1,12 @@
+Listed below are the conventions for naming variables, methods, and classes.
+
+        ■■ Use lowercase for variables and methods—for example, the variables radius and
+           area, and the method print. If a name consists of several words, concatenate them
+           into one, making the first word lowercase and capitalizing the first letter of each subsequent
+           word—for example, the variable numberOfStudents. This naming style is
+           known as the camelCase because the uppercase characters in the name resemble a
+           camel’s humps.
+        ■■ Capitalize the first letter of each word in a class name—for example, the class names
+           ComputeArea and System.
+        ■■ Capitalize every letter in a constant, and use underscores between words—for example,
+           the constants PI and MAX_VALUE.

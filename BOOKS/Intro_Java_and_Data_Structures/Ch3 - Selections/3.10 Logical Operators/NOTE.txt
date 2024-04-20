@@ -1,0 +1,96 @@
+Logical operators, also known as Boolean operators, operate on Boolean values
+to create a new Boolean value. Table 3.3 lists the Boolean operators. 
+
+        Operator    Name            Description
+        --------    ----            -----------
+        !           not             Logical negation
+        &&          and             Logical conjunction
+        ||          or              Logical disjunction
+        ^           exclusive or    Logical exclusion
+
+Table 3.4 defines the not (!) operator, which negates true to false and false to true.
+
+         p       !p     Example(assume age = 24, weight = 140)
+        ---     -----   --------------------------------------
+        true    false   !(age > 18) is false, because (age > 18) is true.
+        false   true    !(weight == 150) is true, because (weight == 150)
+                        is false.
+
+Table 3.5 defines the and (&&) operator. The and (&&) of two Boolean operands
+is true if and only if both the operands are true.
+
+         p       !p     p1 && p2    Example(assume age = 24, weight = 140)
+        ---     -----   --------    --------------------------------------
+       false    false   false
+       false    true    false       (age > 28) && (weight <= 140) is false, because 
+                                    (age > 28) is false
+       true     false   false               
+       true     true    true        (age > 18) && (weight >= 140) is true, because (age > 18)
+                                    and (weight >= 140) are both true.
+
+Table 3.6 defines the or (||) operator. The or (||) of two Boolean operands is
+true if at least one of the operands is true. 
+
+         p       !p     p1 || p2    Example(assume age = 24, weight = 140)
+        ---     -----   --------    --------------------------------------
+       false    false   false       (age > 34) || (weight >= 150) is false, because (age > 34)
+                                    and (weight >= 150) are both false.
+       false    true    true        
+       true     false   true        (age > 18) || (weight < 140) is true, because (age > 18)
+                                    is true
+       true     true    true
+
+Table 3.7 defines the exclusive or (^) operator. The exclusive or (^) of two Boolean 
+operands is true if and only if the two operands have different Boolean values. 
+Note p1 ^ p2 is the same as p1 != p2.
+
+         p       !p     p1 ^ p2    Example(assume age = 24, weight = 140)
+        ---     -----   -------    --------------------------------------
+       false    false   false      (age > 34) ^ (weight > 140) is false, because (age > 34)
+                                   and (weight > 140) are both false
+       false    true    true       (age > 34) ^ (weight >= 140) is true, because (age > 34)
+                                   is false but (weight >= 140) is true.
+       true     false   true
+       true     true    false
+
+In mathematics, the expression
+
+        28 <= numberOfDaysInAMonth <= 31
+
+is correct. However, it is incorrect in Java, because 28 <= numberOfDaysInAMonth is evaluated 
+to a boolean value, which cannot be compared with 31. Here, two operands (a boolean value and
+a numeric value) are incompatible. The correct expression in Java is
+    
+        28 <= numberOfDaysInAMonth && numberOfDaysInAMonth <= 31
+
+De Morgan’s law, named after Indian-born British mathematician and logician Augustus De Morgan (1806–1871),
+can be used to simplify Boolean expressions. The law states the following:
+
+        !(condition1 && condition2) is the same as !condition1 || !condition2
+        
+        !(condition1 || condition2) is the same as !condition1 && !condition2
+
+For example,
+
+        !(number % 2 == 0 && number % 3 == 0)
+
+can be simplified using an equivalent expression:
+        
+        number % 2 != 0 || number % 3 != 0
+
+As another example,
+
+        !(number == 2 || number == 3)
+    
+is better written as
+        
+        number != 2 && number != 3
+
+If one of the operands of an && operator is false, the expression is false; if one of the operands
+of an || operator is true, the expression is true. Java uses these properties to improve the 
+performance of these operators. When evaluating p1 && p2, Java first evaluates p1 then, if p1 is 
+true, evaluates p2; if p1 is false, it does not evaluate p2. When evaluating p1 || p2, Java first
+evaluates p1 then, if p1 is false, evaluates p2; if p1 is true, it does not evaluate p2. In
+programming language terminology, && and || are known as the short-circuit or lazy operators. Java
+also provides the & and | operators, which are covered in Supplement III.C for advanced readers.
+

@@ -1,0 +1,25 @@
+Suppose x = 3 and y = 2; show the output, if any, of the following code. What
+is the output if x = 3 and y = 4? What is the output if x = 2 and y = 2? Draw
+a flowchart of the code.
+
+        if (x > 2) {
+            if (y > 2) {
+                z = x + y;
+                System.out.println("z is " + z);
+            }
+        }
+        else
+            System.out.println("x is " + x);
+
+(answer):
+
+- x = 3 & y = 2;
+  = It doesn't show any output since the because the second boolean expression
+    is failed.
+
+- x = 3 and y = 4
+  = It display the result of z:
+    "z is 7"
+
+- x = 2 & y = 2
+  = It display the "x is 2" because the first boolean expression is result false.

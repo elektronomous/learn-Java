@@ -1,0 +1,4 @@
+Can different types of numeric values be used together in a computation?
+
+(answer):
+= Yes, it can be used to together.

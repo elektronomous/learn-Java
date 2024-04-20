@@ -1,0 +1,34 @@
+Variables are used to represent values that may be changed in the program.
+The variable declaration tells the compiler to allocate appropriate memory
+space for the variable based on its data type. The syntax for declaring a
+variable is:
+
+        datatype variableName;
+
+Here are some examples of variable declarations:
+
+        int count;              // Declare count to be an integer variable
+        double radius;          // Declare radius to be a double variable
+        double interestRate;    // Declare interestRate to be a double variable
+
+If variables are of the same type, they can be declared together, as follows:
+        
+        datatype variable1, variable2, . . . , variablen;
+
+Variables often have initial values. You can declare a variable and initialize it in one step.
+Consider, for instance, the following code:
+        
+        int count = 1;
+
+This is equivalent to the next two statements:
+
+        int count;
+        count = 1;
+
+You can also use a shorthand form to declare and initialize variables of the same type together.
+For example,
+        
+        int i = 1, j = 2;
+
+Whenever possible, declare a variable and assign its initial value in one step. This will
+make the program easy to read and avoid programming errors.

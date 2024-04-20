@@ -1,0 +1,10 @@
+Identifiers are the names that identify the elements such as classes, methods, and 
+variables in a program.  All identifiers must obey the following rules:
+        ■■ An identifier is a sequence of characters that consists of letters, digits, 
+           underscores (_), and dollar signs ($).
+        ■■ An identifier must start with a letter, an underscore (_), or a dollar sign ($).
+           It cannot start with a digit.
+        ■■ An identifier cannot be a reserved word. See Appendix A for a list of reserved
+           words. Reserved words have specific meaning in the Java language. Keywords are
+           reserved words.
+        ■■ An identifier can be of any length.

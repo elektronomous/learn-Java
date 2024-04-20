@@ -1,0 +1,70 @@
+An algorithm lists the steps you can follow to solve a problem. Algorithms can be described
+in natural languages or in pseudocode (natural language mixed with some programming code).
+
+The algorithm for calculating the area of a circle can be described as follows:
+        1. Read in the circle’s radius.
+        2. Compute the area using the following formula:
+                
+                area = radius * radius * p
+        
+        3. Display the result.
+
+You already know every Java program begins with a class definition in which the
+keyword class is followed by the class name. Assume you have chosen ComputeArea as
+the class name. The outline of the program would look as follows:
+
+        public class ComputeArea {
+            // Details to be given later
+        }
+
+As you know, every Java program must have a main method where program execution
+begins. The program is then expanded as follows:
+
+        public class ComputeArea {
+            public static void main(String[] args) {
+                // Step 1: Read in radius
+
+                // Step 2: Compute Area
+
+                // Step 3: Display the area
+            }
+        }
+
+The program needs to read the radius entered by the user from the keyboard. This raises
+two important issues:
+
+        ■■ Reading the radius
+        ■■ Storing the radius in the program
+
+Let’s address the second issue first. In order to store the radius, the program needs to 
+declare a symbol called a variable. A variable represents a value stored in the computer’s 
+memory. choose descriptive names: in this case, radius for radius and area for area. To let
+the compiler know what radius and area are, specify their data types. That is the kind of 
+data stored in a variable, whether an integer, real number, or something else. This is known
+as declaring variables. Java provides simple data types for representing integers, real 
+numbers, characters, and Boolean types. These types are known as primitive data types or 
+fundamental types.
+
+Declare radius and area as double. The program can be expanded as follows:
+
+        public class ComputeArea {
+            public static void main(String[] args) {
+                double radius;      // Declare radius as double
+                double area;        // Declare area as double 
+
+                // Assign a radius
+                radius = 20;        // radius now 20
+
+                // Compute Area
+                area = radius * radius * 3.14159;
+
+                // Display results
+                System.out.println("The area for the circle of radius " +
+                                    radius + " is " + area);
+            }
+        }
+    
+The plus sign (+) has two meanings: one for addition, and the other for concatenating
+(combining) strings. The plus sign (+) in lines 13–14 is called a string concatenation 
+operator. It combines two strings into one. If a string is combined with a number, the 
+number is converted into a string and concatenated with the other string. 

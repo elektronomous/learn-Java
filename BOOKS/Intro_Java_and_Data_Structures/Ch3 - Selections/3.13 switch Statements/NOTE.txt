@@ -1,0 +1,83 @@
+A switch statement executes statements based on the value of a variable or an 
+expression
+
+Overuse of nested if statements makes a program difficult to read. Java provides a switch statement 
+to simplify coding for multiple conditions. You can write the following switch statement to 
+replace the nested if statement in Listing 3.5:
+
+        switch (status) {
+            case 0: compute tax for single filers;
+                    break;
+            case 1: compute tax for married jointly or qualifying widow(er);
+                    break;
+            case 2: compute tax for married filling seperately
+                    break;
+            case 3: compute tax for head of household;
+                    break;
+            default: System.out.println("Error: invalid status");
+                     System.exit(1);
+        }
+
+Here is full syntax for the switch statement:
+
+        switch (switch-expression) {
+            case value1: statement(s)1;
+                         break;
+            case value2: statement(s)2; 
+                         break;
+            case valueN: statement(s)N;
+                         break;
+            default: statement(s)-for-default;
+        }
+
+The switch statement observes the following rules:
+    ■ The switch-expression must yield a value of char, byte, short, int, or 
+      String type and must always be enclosed in parentheses. (The char and String
+      types will be introduced in Chapter 4.)
+    ■ The value1, ..., and valueN must have the same data type as the value of the 
+      switch-expression. Note that value1, ..., and valueN are constant expressions, 
+      meaning they cannot contain variables, such as 1 + x. 
+    ■ When the value in a case statement  matches the value of the switch-expression, the
+      statements starting from this case are  executed until either a break statement or
+      the end of the switch statement is reached.
+    ■ The default case, which is optional, can be used to perform actions when none of 
+      the specified cases matches the switch-expression. 
+    ■ The keyword break is optional. The break statement immediately ends the switch
+      statement.
+
+Do not forget to use a break statement when one is needed. Once a case is matched, 
+the statements starting from the matched case are executed until a break statement 
+or the end of the switch statement is reached. This is referred to as fall-through 
+behavior. For example, the following code displays Weekday for days 1–5 and 
+Weekend for day 0 and day 6.
+
+        switch (day) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5: System.out.println("Weekday"); break;
+            case 0:
+            case 6: System.out.println("Weekend");
+        }
+
+Now let us write a program to find out the Chinese Zodiac sign for a given year. The 
+Chinese Zodiac is based on a 12-year cycle, with each year represented by an animal—
+monkey, rooster(ayam jantan), dog, pig, rat, ox (sapi jantan), tiger, rabbit, dragon,
+snake, horse, or sheep—in this cycle, as shown in Figure 3.6.
+Note year % 12 determines the Zodiac sign. 1900 is the year of the rat because 1900 
+% 12 is 4. Listing 3.9 gives a program that prompts the user to enter a year and displays the 
+animal for the year.
+
+            |-- 0: monkey
+            |    1: rooster
+            |    2: dog
+            |    3: pig
+            |    4: rat
+year % 12 =-/    5: ox
+            |    6: tiger
+            |    7: rabbit
+            |    8: dragon
+            |    9: snake
+            |   10: horse
+            |-- 11: sheep

@@ -1,0 +1,9 @@
+How do you write a statement to let the user enter a double value from keyboard?
+What happens if you entered 5a when executing the following code?
+
+        double radius = input.nextDouble();
+
+(answer):
+
+= double radius = input.nextDouble();
+= The runtime errors would occur

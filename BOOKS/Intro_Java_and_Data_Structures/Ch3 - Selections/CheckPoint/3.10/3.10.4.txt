@@ -1,0 +1,13 @@
+Assume x and y are int type. Which of the following are legal Java expressions?
+
+    x > y > 0
+    x = y && y
+    x /= y
+    x or y
+    x and y
+    (x != 0) || (x = 0)
+
+(answer):
+    x = y && y
+    x /= y
+    (x != 0) || (x = 0)

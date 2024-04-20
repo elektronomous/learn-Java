@@ -1,0 +1,10 @@
+Are there any performance differences between the following two import
+statements?
+
+        import java.util.Scanner;
+        import java.util.*;
+
+(answer):
+
+There's no difference performance whether using the wildcard import statement or
+specific import statement.

@@ -1,0 +1,5 @@
+How would you write the following arithmetic expression?
+
+(answer):
+
+(-b + Math.pow(Math.pow(b,2) - (4 * a * c), 1/2)) / (2 * a);

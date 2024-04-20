@@ -1,0 +1,18 @@
+A computer’s memory consists of an ordered sequence of bytes for storing programs as well
+as data with which the program is working. You can think of memory as the computer’s work
+area for executing a program. A program and its data must be moved into the computer’s
+memory before they can be executed by the CPU.
+
+Every byte in the memory has a unique address, as shown in Figure 1.2. The address is used
+to locate the byte for storing and retrieving the data. Since the bytes in the memory can
+be accessed in any order, the memory is also referred to as random-access memory (RAM).
+        
+       | Memory address  | Memory content    |
+       |         .       |       .           |
+       |         .       |       .           |
+       |         .       |       .           |
+       |       2000      |   0100 0011       | Encoding for character C
+       |       2001      |   0111 0010       | Encoding for character r
+       |       2002      |   0110 0101       | Encoding for character e
+       |       2003      |   0111 0111       | Encoding for character w
+       |       2004      |   0000 0011       | Decimal number 3

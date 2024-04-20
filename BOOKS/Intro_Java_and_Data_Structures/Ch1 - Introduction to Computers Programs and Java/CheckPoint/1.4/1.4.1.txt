@@ -1,0 +1,9 @@
+What is an operating system? List some popular operating systems.
+
+(answer):
+
+= An OS is environment where your program is managed to be run, where 
+  the input output is managed, and handles all the hardware and the resources
+  that available.
+
+= Microsoft Windows, Linux Ubuntu, Manjaro, Fedora, MacOS Catalina

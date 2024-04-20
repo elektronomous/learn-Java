@@ -1,0 +1,4 @@
+3.15.2 True or false? All the binary operators except = are left associative.
+
+(answer):
+true

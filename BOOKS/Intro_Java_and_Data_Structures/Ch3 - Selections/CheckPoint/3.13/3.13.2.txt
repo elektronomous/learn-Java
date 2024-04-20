@@ -1,0 +1,17 @@
+What is y after the following switch statement is executed? Rewrite the code 
+using an if-else statement.
+
+        x = 3; y = 3;
+
+        switch (x + 3) {
+            case 6: y = 1;
+            default: y += 1; 
+        }
+
+(answer):
+= y would be assigned 1
+
+=       if (x + y)
+            y = 1;
+        else
+            y += 1;

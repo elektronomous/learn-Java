@@ -1,0 +1,31 @@
+What is the output of the following code if number is 14, 15, or 30?
+
+(a) if (number % 2 == 0)
+        System.out.println(number + " is even");
+    if (number % 5 == 0)
+        System.out.println(number + " is multiple of 5");
+
+(b) if (number % 2 == 0)
+        System.out.println(number + " is even");
+    else if (number % 5 == 0)
+        System.out.println(number + " is multiple of 5");
+
+(answer):
+(a) number = 14
+    "14 is even"
+
+    number = 15
+    "15 is multiple of 5"
+
+    number = 30
+    "30 is even"
+    "30 is multiple of 5"
+
+(b) number = 14
+    "14 is even"
+
+    number = 15
+    "15 is multiple of 5"
+
+    number = 30
+    "30 is even"

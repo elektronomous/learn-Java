@@ -1,0 +1,31 @@
+What is the output of the code in (a) and (b) if number is 30?
+What if number is 35?
+
+(a) if (number % 2 == 0)
+        System.out.println(number
+            + "is even.");
+    System.out.println(number
+    + "is odd");
+
+(b) if (number % 2 == 0)
+        System.out.println(number
+            + "is even.");
+    else
+        System.out.println(number
+            + "is odd");
+
+
+(answer):
+
+= If the number is 30, then (a) will be 
+    "30 is even."
+    "30 is odd"
+  
+  and the (b) will be
+    "30 is even"
+
+= If the number is 35, then (a) will be
+     "35 is odd"
+  
+  and the (b) will be
+     "35 is odd"

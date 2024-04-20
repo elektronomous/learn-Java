@@ -1,0 +1,11 @@
+Java is a powerful and versatile programming language for developing software running
+on mobile devices, desktop computers, and servers.
+
+Java was developed by a team led by James Gosling at Sun Microsystems. Originally 
+called Oak, Java was designed in 1991 for use in embedded chips in consumer electronic
+appliances. In 1995, renamed Java, it was redesigned for developing web  applications.
+For the history of Java, see www.java.com/en/javahistory/index.jsp
+
+Java initially became attractive because Java programs can run from a web browser. Such
+programs are called applets. Today applets are no longer allowed to run from a Web browser
+due to security issues.

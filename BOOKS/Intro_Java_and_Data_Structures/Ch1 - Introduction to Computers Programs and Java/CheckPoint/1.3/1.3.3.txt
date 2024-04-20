@@ -1,0 +1,6 @@
+What is a high-level programming language? What is a source program?
+
+(answer):
+= high-level programming language is a language that's independent platform,
+  which means that its executable program could run in any machine.
+= a source program is the name of the program's code itself.

@@ -1,0 +1,15 @@
+Programming style deals with what programs look like. A program can compile and run
+properly even if written on only one line, but writing it all on one line would be a
+bad programming style because it would be hard to read. Documentation is the body of
+explanatory remarks (ucapan) and comments pertaining (berkaitan) to a program.
+
+Java supports comments of a special type, referred to as javadoc comments. javadoc 
+comments begin with /** and end with */. They can be extracted into an HTML file using
+the JDK’s javadoc command. For more information, see Supplement III.X, javadoc Comments,
+on the Companion Website. Use javadoc comments (/** . . . */) for commenting on an 
+entire class or an entire method. These comments must precede the class or the method 
+header in order to be extracted into a javadoc HTML file. For commenting on steps inside
+a method, use line comments (//). To see an example of a javadoc HTML file, check out 
+liveexample.pearsoncmg.com/javadoc/Exercise1.html. Its corresponding Java code is shown
+in liveexample.pearsoncmg.com/javadoc/Exercise1.txt.
+
