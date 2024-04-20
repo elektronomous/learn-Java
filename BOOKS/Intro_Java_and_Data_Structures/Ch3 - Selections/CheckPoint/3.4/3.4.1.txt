@@ -1,9 +1,0 @@
-Write an if statement that increases pay by 3% if score is greater 
-than 90, otherwise increases pay by 1%.
-
-(answer):
-
-    if (score > 90)
-        pay += ((3.0/100) * pay);
-    else
-        pay += (.01 * pay);

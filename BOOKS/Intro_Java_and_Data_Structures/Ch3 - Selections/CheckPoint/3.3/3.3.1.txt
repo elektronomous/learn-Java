@@ -1,6 +1,0 @@
-Write an if statement that assigns 1 to x if y is greater than 0.
-
-(answer):
-
-        if (y > 0)
-            x = 1;

@@ -1,6 +1,0 @@
-Write a Boolean expression that evaluates to true if weight is greater than 50
-pounds and height is greater than 60 inches.
-
-(answer):
-
-(weight > 50 && height > 60)

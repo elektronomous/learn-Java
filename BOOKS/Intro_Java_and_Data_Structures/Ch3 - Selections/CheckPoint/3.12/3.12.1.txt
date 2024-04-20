@@ -1,4 +1,0 @@
-What happens if you enter an integer as 05?
-
-(answer):
-= The guess read only 0 values, not 5

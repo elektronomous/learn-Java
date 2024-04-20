@@ -1,6 +1,0 @@
-The term programming means to create (or develop) software, which is also called a 
-program. In basic terms, software contains instructions that tell a computer—or a 
-computerized device—what to do.
-
-Each language was invented for a specific purpose—to build on the strengths of a 
-previous language, for example, or to give the programmer a new and unique set of tools.

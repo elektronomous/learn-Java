@@ -1,4 +1,0 @@
-What is the Java language specification?
-
-(answer):
-= It's a programming language syntax and semantics

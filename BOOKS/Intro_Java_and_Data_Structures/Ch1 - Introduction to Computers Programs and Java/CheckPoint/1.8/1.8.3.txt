@@ -1,4 +1,0 @@
-What is the command to compile a Java program?
-
-(answer):
-= javac someClassName.java

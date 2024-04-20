@@ -1,9 +1,0 @@
-What is wrong in the following code?
-    if radius >= 0 {
-        area = radius * radius * PI;
-        System.out.println("The area for the circle of " +
-        " radius " + radius + " is " + area);
-    }
-
-(answer):
-= The evaluated values has no opening braces.

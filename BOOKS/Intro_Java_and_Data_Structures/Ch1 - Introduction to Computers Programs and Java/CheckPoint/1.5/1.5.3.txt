@@ -1,4 +1,0 @@
-What programming language does Android use?
-
-(answer):
-= Java

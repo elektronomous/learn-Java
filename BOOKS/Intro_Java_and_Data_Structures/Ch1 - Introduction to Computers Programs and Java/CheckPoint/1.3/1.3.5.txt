@@ -1,7 +1,0 @@
-What is the difference between an interpreted language and compiled language?
-
-(answer):
-= The interpreted language can run within the interpreter.
-= While the compiled language, you can run only when the compiler has compile
-  the language, producing an executable program which you as the user can then
-  executed.

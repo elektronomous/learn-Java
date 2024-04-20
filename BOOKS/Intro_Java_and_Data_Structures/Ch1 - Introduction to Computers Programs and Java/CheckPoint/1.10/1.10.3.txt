@@ -1,5 +1,0 @@
-If you forget to put a closing quotation mark on a string, what kind of error
-will be raised?
-
-(answer):
-= Syntax error

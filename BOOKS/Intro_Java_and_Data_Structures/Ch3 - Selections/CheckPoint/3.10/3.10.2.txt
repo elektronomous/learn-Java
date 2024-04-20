@@ -1,8 +1,0 @@
-(a) Write a Boolean expression that evaluates to true if a number stored 
-    in variable num is between 1 and 100. 
-(b) Write a Boolean expression that evaluates to true if a number stored
-    in variable num is between 1 and 100 or the number is negative.
-
-(answer):
-(a) (num >= 1) && (num <= 100)
-(b) (num >= 1) && (num <= 100) || (number < 0)

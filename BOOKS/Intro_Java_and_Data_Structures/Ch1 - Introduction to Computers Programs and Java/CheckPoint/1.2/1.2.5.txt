@@ -1,8 +1,0 @@
-What is memory for? What does RAM stand for? Why is memory called RAM ?
-
-(answer):
-= It's computer working area, it's where your programs get its place and
-  executed by the CPU. 
-= RAM stands for Random Access Memory
-= Because inside RAM, we could access the address of the data or the code
-  randomly.

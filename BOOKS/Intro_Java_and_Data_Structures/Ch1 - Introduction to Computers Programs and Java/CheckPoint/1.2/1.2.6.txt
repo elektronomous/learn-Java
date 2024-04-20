@@ -1,5 +1,0 @@
-What unit is used to measure memory size? What unit is used measure
-disk size?
-
-(answer):
-= Both of them is measured in Bytes.

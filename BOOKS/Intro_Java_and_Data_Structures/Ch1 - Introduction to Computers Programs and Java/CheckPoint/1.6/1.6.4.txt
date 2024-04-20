@@ -1,7 +1,0 @@
-Are tools like NetBeans and Eclipse different language from Java, or
-are they dialects or extensions of Java?
-
-(answer):
-= NetBeans and Eclipse are not programming language, instead it's a environment
-  where you can write your Java code (or another programming language's code) 
-  and then use their feature to ease your job when building a program.

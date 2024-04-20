@@ -1,5 +1,0 @@
-What are hardware and software ?
-
-(answer):
-= hardware is the visible form of the device where the software
-  is the invisible form that can control the hardware.

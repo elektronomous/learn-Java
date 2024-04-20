@@ -1,4 +1,0 @@
-Can Java run on any machine? What is needed to run Java on a computer?
-
-(answer):
-= Of course, it can run on any machine but the program needs the JVM.

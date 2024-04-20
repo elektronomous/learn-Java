@@ -1,4 +1,0 @@
-Who invented Java? Which company owns Java now?
-
-(answer):
-= James Gosling, Oracle

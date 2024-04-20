@@ -1,8 +1,0 @@
-Which of the following identifiers are valid? Which are Java keywords?
-    miles, Test, a++, --a, 4#R, $4, #44, apps
-    class, public, int, x, y, radius
-
-(answer):
-
-identifiers are valid = miles, Test, $4, apps, x, y, radius
-Java keywords = class, public, int

@@ -1,5 +1,0 @@
-Write an expression using a conditional operator that returns randomly −1 or 1.
-
-(answer)
-
-    (Math.random() % 2 == 0) ? -1 : 1; 

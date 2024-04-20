@@ -1,6 +1,0 @@
-What is the Java source filename extension and what is the Java
-bytecode filename extension?
-
-(answer):
-= The Java source filename extension is .java and the Java's bytecode
-  filename extension is .javac

@@ -1,8 +1,0 @@
-What is a comment? Is the comment ignored by the compiler? How
-do you denote a comment line and a comment paragraph?
-
-(answer):
-= Comment is a predicate where you can use it as the way that your
-  code easier to understand. Yes, the compiler ignored the comments.
-  you can denote a comment line by // (double slash), while the paragraph
-  comment by /* */

@@ -1,8 +1,0 @@
-How do you obtain the current second, minute, and hour?
-
-(answer):
-
-= By doing modulator operation in the second, minute and hour:
-  currentSeconds = totalSeconds % 60 =
-  currentMinute = (totalSeconds / 60) % 60 = 
-  currentHours = (totalSeconds / 60 / 60) % 24 = 

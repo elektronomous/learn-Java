@@ -1,6 +1,0 @@
-How many days in the February of a leap year? Which of the following is a leap
-year? 500, 1000, 2000, 2016, and 2020?
-
-(answer):
-= February has 29 days in a leap year.
-= 500, 1000 are not leap year, while the rest are.

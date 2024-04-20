@@ -1,7 +1,0 @@
-What is an interpreter? What is a compiler?
-
-(answer):
-= An interpreter is a translator that translate the one-line code/instructions
-  to machine-code / virtual machine-code and then run it right away.
-= a compiler is translator that translate the code/instructions as whole to machine
-  code and you can run it right away.

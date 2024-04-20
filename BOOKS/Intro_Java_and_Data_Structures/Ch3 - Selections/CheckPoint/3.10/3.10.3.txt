@@ -1,6 +1,0 @@
-(a) Write a Boolean expression for |x - 5| < 4.5.
-(b) Write a Boolean expression for |x - 5| > 4.5.
-
-(answer):
-(a) (Math.abs(x - 5) < 4.5)
-(b) (Math.abs(x - 5) > 4.5)
