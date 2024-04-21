@@ -1,0 +1,54 @@
+A method is a group of statements that performs a specific task. You have already used the pow(a,b) method
+to compute aᵇ in Section 2.9.4, Exponent Operations and the random() method for generating a random number
+in Section 3.7. This section introduces other useful methods in the Math class. They can be categorized as
+trigonometric methods, exponent methods, and service methods. Service methods include the rounding, min, 
+max, absolute, and random methods. In addition to methods, the Math class provides two useful double constants,
+PI and E (the base of natural logarithms). You can use these constants as Math.PI and Math.E in any program.
+
+TRIGONOMETRI METHODS (Trogonometry-table.PNG)
+The Math class contains the following methods as listed in Table 4.1 for performing trigonometric functions:
+    Method          Description
+sin(radians)        Returns the trigonometric sine of an angle in radians.
+cos(radians)        Returns the trigonometric cosine of an angle in radians.
+tan(radians)        Returns the trigonometric tangent of an angle in radians.
+toRadians(degree)   Returns the angle in radians for the angle in degrees.
+toDegrees(radians)  Returns the angle in degrees for the angle in radians.
+asin(a)             Returns the angle in radians for the inverse of sine.
+acos(a)             Returns the angle in radians for the inverse of cosine.
+atan(a)             Returns the angle in radians for the inverse of tangent.
+
+for example: 
+    Math.toDegrees(Math.PI / 2) returns 90.0
+    Math.toRadians(30) returns 0.5236 (same as π/6)
+    Math.sin(0) returns 0.0
+    Math.sin(Math.toRadians(270)) returns -1.0
+    Math.sin(Math.PI / 6) returns 0.5
+    Math.sin(Math.PI / 2) returns 1.0
+    Math.cos(0) returns 1.0
+    Math.cos(Math.PI / 6) returns 0.866 or √3/2
+    Math.cos(Math.PI / 2) returns 0.0
+
+EXPONENT METHODS
+There are five methods related to exponents in the Math class as listed in Table 4.2.:
+Method      Description
+exp(x)      Returns e raised to power of x (eˣ).
+log(x)      Returns the natural logarithm of x (ln(x) = logₑ(x)).
+log10(x)    Returns the base 10 logarithm of x (log₁₀(x)).
+pow(a, b)   Returns a raised to the power of b (aᵇ).
+sqrt(x)     Returns the square root of x (√x) for x >= 0.
+
+for example:
+    e³.⁵        is Math.exp(3.5), which returns 33.11545
+    ln(3.5)     is Math. log(3.5), which returns 1.25276
+    log₁₀ (3.5) is Math.log10(3.5), which returns 0.544
+    2³          is Math.pow(2,3), which returns 8.0
+    3²          is Math.pow(3,2), which returns 9.0 
+    √4          is Math.sqrt(4), which returns 2.0
+
+THE ROUNDING METHODS
+The Math class contains four rounding methods as listed in Table 4.3:
+Method      Description
+ceil(x)     x is rounded up to its nearest integer. This integer is returned as a double value.
+floor(x)    x is rounded down to its nearest integer. This integer is returned as a double value.
+rint(x)     x is rounded to its nearest integer. If x is equally close to two integers, the even one is returned as a double value.
+round(x)    Returns (int)Math.floor(x + 0.5) if x is a float and returns (long)Math.floor(x + 0.5) if x is a double. 

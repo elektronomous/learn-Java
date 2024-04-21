@@ -1,0 +1,5 @@
+The focus of this chapter is to introduce mathematical functions, characters, string objects, and use them to develop
+programs.
+Suppose you need to estimate the area enclosed by four cities, given the GPS locations (latitude and longitude) of
+these cities, as shown in the following diagram. How would you write a program to solve this problem? You will be able
+to write such a program in this chapter.
